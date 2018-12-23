@@ -15,7 +15,10 @@ class App extends React.Component {
         <div className="container" style={{ position: 'relative', marginLeft: '20%', marginTop:'30px', marginRight: '20%'}}>
             <div className="front" >
                 <img src={logo} alt='logo' width='450px' style={{marginLeft: '13%'}}></img>
-                <p>asdasdasdasd</p>
+                
+                <div className="leftLean"></div>
+                <div className="rightLean"></div>
+
             </div>
         </div>
     )
