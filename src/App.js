@@ -12,13 +12,42 @@ class App extends React.Component {
   }
   render() {
       return (
-        <div className="container" style={{ position: 'relative', marginLeft: '20%', marginTop:'30px', marginRight: '20%'}}>
+        <div className="containerFluid" style={{ position: 'relative', marginLeft: '20vw', marginTop: '10vw', marginRight: '20vw'}}>
             <div className="front" >
-                <img src={logo} alt='logo' width='450px' style={{marginLeft: '13%'}}></img>
-                
-                <div className="leftLean"></div>
-                <div className="rightLean"></div>
+                <div className="logoContainer" style={{maxWidth: '600px', marginLeft: '15vw', marginRight: '15vw'}}>
+                    <img src={logo} alt='logo' width='100%'></img>
+                </div>
 
+
+                <div className="frontCont">
+                    <div className="rightLean">
+                        <p>pic here</p>
+                    </div>
+                </div>
+
+
+                <div className="frontCont">
+                    <div className="leftLean">
+                        <p>pic here</p>
+                    </div>
+                </div>
+                
+                <div className="frontCont">
+                    <div className="rightLean">
+                        <p>pic here</p>
+                    </div>
+                </div>
+                <div className="frontCont">
+                    <div className="leftLean">
+                        <p>pic here</p>
+                    </div>
+                </div>
+
+                <div className="frontCont" >
+                    <div className="rightLean">
+                        <p>pic here</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
