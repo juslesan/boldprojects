@@ -5,13 +5,38 @@
   position: relative;
   float: left;
 }
-
+.leftLean > a {
+  color: black;
+  font-family: Montserrat;
+  /* font-weight: 900; */
+  font-size: 20px;
+}
 .rightLean {
   margin-top: 20px;
   position: relative;
   float: right;
 }
-
+.rightLean > a {
+  color: black;
+  font-family: Montserrat;
+  /* font-weight: 900; */
+  font-size: 20px;
+}
 .frontCont {
   height: 100px;
+}
+
+
+
+.contact {
+  position: absolute;
+  right: 0vw;
+  top: -90px;
+}
+
+.contact > a {
+  color: black;
+  font-family: Montserrat;
+  /* font-weight: 900; */
+  font-size: 20px;
 }
