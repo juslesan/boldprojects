@@ -8,7 +8,7 @@ const Frontpage = () => {
                 <div className="frontCont">
                     <div className="rightLean">
                         <a href='/voyage'>
-                            pic here
+                            Bold Voyage
                         </a>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const Frontpage = () => {
                 <div className="frontCont">
                     <div className="leftLean">
                         <a href='/marathon'>
-                            pic here
+                            Bold 100
                         </a>                    
                     </div>
                 </div>
@@ -25,14 +25,14 @@ const Frontpage = () => {
                 <div className="frontCont">
                     <div className="rightLean">
                         <a href='/news'>
-                            pic here
+                            Newspaper
                         </a> 
                     </div>
                 </div>
                 <div className="frontCont">
                     <div className="leftLean">
                         <a href='/blog'>
-                            pic here
+                            Blog
                         </a> 
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Frontpage = () => {
                 <div className="frontCont" >
                     <div className="rightLean">
                         <a href='/gallery'>
-                            pic here
+                            Gallery
                         </a> 
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Frontpage = () => {
                 <div className="frontCont">
                     <div className="leftLean">
                         <a href='/about'>
-                            pic here
+                            About
                         </a> 
                     </div>
                 </div>
