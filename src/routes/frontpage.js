@@ -12,73 +12,60 @@ const Frontpage = () => {
 
                 <div className="frontCont">
                     <div className="rightLean">
-                        <img src={BV_Ikon} alt='logo' width='150px' style={{position: 'absolute', right: '0px', zIndex: '97'}}></img>
-
-                        <a href='/voyage'>
-                            <div className='overlayLink' style={{right: '0px'}}>
-                                {/* <p>Bold Voyage</p> */}
-                            </div>
-                        </a>
+                        <div className="linkImgContainer">
+                            <a href='/voyage'>
+                                <img className="linkImg" src={BV_Ikon} alt='logo' style={{right: '0px'}}></img>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="frontCont">
                     <div className="leftLean">
-                        <img src={B100} alt='logo' width='150px' style={{position: 'absolute',  zIndex: '97'}}></img>
-
-                        <a href='/marathon'>
-                            <div className= 'overlayLink'>
-                                {/* <p>Bold Voyage</p> */}
-                            </div>
-                        </a>                   
+                        <div className="linkImgContainer">
+                            <a href='/marathon'>
+                                <img className="linkImg" src={B100} alt='logo'></img>
+                            </a>  
+                        </div>                 
                     </div>
                 </div>
                 
                 <div className="frontCont">
                     <div className="rightLean">
-                        <img src={NP_Ikon} alt='logo' width='150px' style={{position: 'absolute', right: '0px', zIndex: '97'}}></img>
-
-                        <a href='/news'>
-                            <div className= 'overlayLink' style={{right: '0px'}}>
-                                {/* <p> Bold Voyage</p> */}
-                            </div>
-                        </a>
+                        <div className="linkImgContainer">
+                            <a href='/news'>
+                                <img className="linkImg" src={NP_Ikon} alt='logo' style={{right: '0px'}}></img>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="frontCont">
                     <div className="leftLean">
-                        <img src={BL} alt='logo' width='150px' style={{position: 'absolute',  zIndex: '97'}}></img>
-
-                        <a href='/blog'>
-                            <div className= 'overlayLink'>
-                               {/* <p> Bold Voyage </p> */}
-                            </div>
-                        </a> 
+                        <div className="linkImgContainer">
+                            <a href='/blog'>
+                                <img className="linkImg" src={BL} alt='logo' width='100%' ></img>
+                            </a> 
+                        </div>
                     </div>
                 </div>
 
                 <div className="frontCont" >
                     <div className="rightLean">
-                        <img src={About} alt='logo' width='150px' style={{position: 'absolute', right: '0px',  zIndex: '97'}}></img>
-
-                        <a href='/gallery'>
-                            <div className= 'overlayLink' style={{right: '0px'}}>
-                                <p> Bold Voyage</p>
-                            </div>
-                        </a>
+                        <div className="linkImgContainer">
+                            <a href='/gallery'>
+                                <img className="linkImg" src={About} alt='logo' width='100%' style={{right: '0px'}}></img>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
                 <div className="frontCont">
                     <div className="leftLean">
-                        <img src={About} alt='logo' width='150px' style={{position: 'absolute',  zIndex: '97'}}></img>
-
-                        <a href='/about'>
-                            <div className= 'overlayLink'>
-                                <p>Bold Voyage</p>
-                            </div>
-                        </a>
+                        <div className="linkImgContainer">
+                            <a href='/about'>
+                                <img className="linkImg" src={About} alt='logo'></img>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
