@@ -27,42 +27,44 @@ class App extends React.Component {
   render() {
       return (
         
-        <div className="containerFluid" style={{ position: 'relative', marginLeft: '20vw', marginTop: '100px', marginRight: '20vw'}}>
+        <div className="containerFluid" style={{ position: 'absolute', marginLeft: '10vw', marginRight: '10vw'}}>
            <div className="contact">
                 <a href="/contact">Contact</a> 
             </div> 
             <Router>
                 <div>
                     
-                    <div className="logoContainer" style={{maxWidth: '600px', marginLeft: '15vw', marginRight: '15vw'}}>
-                            <a href='/'>
-                                <img src={logo} alt='logo' width='100%'></img>
+                    <div className="logoContainer">
+                            <a href='/' style={{}}>
+                                <img src={logo} alt='logo' width='25%' style={{marginLeft: '20vw'}}></img>
                             </a>
                     </div>
-                    <Route exact path="/" render={() =>
-                        <Frontpage/>}
-                    />
-                    <Route path="/blog" render={() =>
-                        <Blog/>}
-                    />
-                    <Route path="/voyage" render={() =>
-                        <Voyage/>}
-                    />
-                    <Route path="/marathon" render={() =>
-                        <Marathon/>}
-                    />
-                    <Route path="/news" render={() =>
-                        <News/>}
-                    />
-                    <Route path="/about" render={() =>
-                        <About/>}
-                    />
-                    <Route path="/gallery" render={() =>
-                        <Gallery/>}
-                    />
-                    <Route path="/contact" render={() =>
-                        <Contact/>}
-                    />
+                    <div style={{position: 'relative', width: '60vw', top: '0vw', marginLeft: '10vw', marginRight: '10vw'}}>
+                        <Route exact path="/" render={() =>
+                            <Frontpage/>}
+                        />
+                        <Route path="/blog" render={() =>
+                            <Blog/>}
+                        />
+                        <Route path="/voyage" render={() =>
+                            <Voyage/>}
+                        />
+                        <Route path="/marathon" render={() =>
+                            <Marathon/>}
+                        />
+                        <Route path="/news" render={() =>
+                            <News/>}
+                        />
+                        <Route path="/about" render={() =>
+                            <About/>}
+                        />
+                        <Route path="/gallery" render={() =>
+                            <Gallery/>}
+                        />
+                        <Route path="/contact" render={() =>
+                            <Contact/>}
+                        />
+                    </div>
                 </div>
             </Router>
             

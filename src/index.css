@@ -4,39 +4,82 @@
   margin-top: 20px;
   position: relative;
   float: left;
+  z-index: 98;
 }
 .leftLean > a {
   color: black;
   font-family: Montserrat;
   /* font-weight: 900; */
   font-size: 25px;
+  /* z-index: 99; */
+
 }
+
+
 .rightLean {
   margin-top: 20px;
   position: relative;
   float: right;
+  z-index: 98;
 }
 .rightLean > a {
   color: black;
   font-family: Montserrat;
   /* font-weight: 900; */
   font-size: 25px;
+  /* z-index: 99; */
+
 }
+
 .frontCont {
-  height: 100px;
+  height: 200px;
+  z-index: 99;
 }
 
+.overlayLink {
+  position: absolute;
+  width: 150px; 
+  height: 210px;
+  z-index: 99;
+}
 
+.overlayLink > p{
+  margin-top: 50%;
+  z-index: 99;
+  text-align: center;
+}
+
+.overlayLink:hover{
+  text-decoration: underline;
+  background-color: grey;
+  opacity: 0.1;
+  text-decoration-color: black;
+  z-index: 99;
+}
 
 .contact {
-  position: absolute;
+  position: fixed;
   right: 0vw;
-  top: -90px;
+  top: 0px;
 }
 
 .contact > a {
   color: black;
   font-family: Montserrat;
   /* font-weight: 900; */
-  font-size: 20px;
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.logoContainer {
+  position: fixed; 
+  z-index: 99;
+  margin-left: 0vw;
+  margin-right: 0vw; 
+  top: 25%;
+  left: 20%;
+}
+
+.logoContainer a > img:hover {
+  background-color: azure
 }
