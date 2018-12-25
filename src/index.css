@@ -105,3 +105,40 @@
 .logoContainer a > img:hover {
   background-color: azure
 }
+
+.about {
+  font-family: Montserrat;
+
+}
+.aboutBulk {
+  margin: 50px;
+  margin-top: 80vh;
+
+}
+.aboutBulk > p {
+  text-align: center
+}
+.aboutBulk > h2 {
+  text-align: center;
+}
+.about > a {
+  font-family: Montserrat;
+  color: black;
+  font-size: 18px;
+}
+.doers{
+  position: relative;
+  left: 0vh;
+}
+.doer {
+  display: inline-block;
+  margin: 22px;
+  width: 180px;
+}
+.doer > p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1px;
+  font-size: 17px;
+}

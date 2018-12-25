@@ -34,7 +34,7 @@ const Frontpage = () => {
                     {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                 </Video>
                 </div>
-                <div style={{position: 'relative', top: '70vh'}}>
+                <div style={{position: 'relative', top: '85vh'}}>
                     <div className="frontCont">
                         <div className="rightLean">
                             <div className="linkImgContainer">
