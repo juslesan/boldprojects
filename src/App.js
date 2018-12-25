@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import logo from './img/logo.png';
 import {
     BrowserRouter as Router,
     Route,
@@ -28,17 +27,10 @@ class App extends React.Component {
       return (
         
         <div className="containerFluid" style={{ position: 'absolute', marginLeft: '10vw', marginRight: '10vw'}}>
-           <div className="contact">
-                <a href="/contact">Contact</a> 
-            </div> 
+        
             <Router>
                 <div>
                     
-                    <div className="logoContainer">
-                            <a href='/' style={{}}>
-                                <img src={logo} alt='logo' width='25%' style={{marginLeft: '20vw'}}></img>
-                            </a>
-                    </div>
                     <div style={{position: 'relative', width: '60vw', top: '0vw', marginLeft: '10vw', marginRight: '10vw'}}>
                         <Route exact path="/" render={() =>
                             <Frontpage/>}
