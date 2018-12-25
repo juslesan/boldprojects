@@ -7,7 +7,7 @@ import BV_Ikon from '../img/BV_Ikon.jpg'
 import NP_Ikon from '../img/NP_ikon.jpg'
 import logo from '../img/logo.png';
 import video from '../video/promo.mp4'
-import video2 from '../video/promo2.mp4'
+// import video2 from '../video/promo2.mp4'
 
 import { DefaultPlayer as Video } from 'react-html5video';
 import 'react-html5video/dist/styles.css';
@@ -24,13 +24,13 @@ const Frontpage = () => {
                 </a>
             </div>
             <div className="front" style={{position: 'relative'}}>
-                <div style={{position: 'absolute', left: '-20vw', top: '-3vh', zIndex: '96'}}>
+                <div style={{position: 'absolute', left: '-16vw', top: '14vh', zIndex: '96'}}>
                 <Video autoPlay loop muted
-                    controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+                    controls={[]}
                     onCanPlayThrough={() => {
                     }}
-                    style={{width: "73%"}}>
-                    <source src={video2} type="video/webm" />
+                    style={{width: "72%"}}>
+                    <source src={video} type="video/webm" />
                     {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                 </Video>
                 </div>
