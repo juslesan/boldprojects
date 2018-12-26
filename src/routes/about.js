@@ -21,49 +21,53 @@ const About = () => {
                     With our annual daring endeavors we want to help charities raise awareness and funds. 
                     Our projects are eco-friendly, creative and bold.
                 </p>
+
+                <hr></hr>
+
                 <h2 style={{marginTop: '50px', marginBottom: '50px'}}>The Doers</h2>
                 <div className="doers" style={{position: 'relative'}}>
                     <div className="doer">
-                        <img src={Bernhard} alt="kuva" width="180px"></img>
+                        <img src={Bernhard} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
-                        <p>Bernhard Forstén</p>
+                        <p>Bernhard <br/> Forstén</p>
                     </div>
                     <div className="doer">
-                        <img src={Eddie} alt="kuva" width="180px"></img>
+                        <img src={Eddie} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
-                        <p>Eddie Myrskog</p>
+                        <p>Eddie <br/> Myrskog</p>
 
                     </div>
                     <div className="doer">
-                        <img src={Linus} alt="kuva" width="180px"></img>
+                        <img src={Linus} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
-                        <p>Linus Lehto</p>
+                        <p>Linus <br/> Lehto</p>
                     </div>
                     <div className="doer">
-                        <img src={Valtteri} alt="kuva" width="180px"></img>
+                        <img src={Valtteri} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
-                        <p>Valtteri Ikäheimo</p>
+                        <p>Valtteri <br/> Ikäheimo</p>
 
                     </div>
                     <div className="doer">
-                        <img src={Thomas} alt="kuva" width="180px"></img>
+                        <img src={Thomas} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
-                        <p>Thomas Lundström</p>
+                        <p>Thomas <br/> Lundström</p>
 
                     </div>
                     <div className="doer">
-                        <img src={Pernilla} alt="kuva" width="180px"></img>
+                        <img src={Pernilla} alt="kuva" width="100%"></img>
                         <p>Member</p>
-                        <p>Pirnilla Marjula</p>
+                        <p>Pirnilla <br/> Marjula</p>
 
                     </div>
                     <div className="doer">
-                        <img src={Victor} alt="kuva" width="180px"></img>
+                        <img src={Victor} alt="kuva" width="100%"></img>
                         <p>Member</p>
-                        <p>Victor Lindahl</p>
+                        <p>Victor <br/> Lindahl</p>
                     </div>
                 </div>
-                <h2 style={{position: 'relative', float: 'down'}}>Background</h2>
+                <hr></hr>
+                <h2 style={{position: 'relative', float: 'down', marginTop: '60px', marginBottom: '40px'}}>Background</h2>
 
                 <p style={{textAlign: 'justify'}}>
                     Bold Projects is a nonprofit association founded in Helsinki in 2018. With our bold endeavors, we want to help charities raise awareness and funds. We want to provide our members with a platform where they can co-organize and create daring projects. It is of paramount importance to us that the projects are environmental and maintain a certain level of visual imagery. 
