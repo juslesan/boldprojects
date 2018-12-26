@@ -14,7 +14,7 @@ import 'react-html5video/dist/styles.css';
 
 const Frontpage = () => {
     return (
-        <div>
+        <div style={{marginBottom: '30px'}}>
             <div className="contact">
                 <a href="/contact">Contact</a> 
             </div> 
@@ -24,7 +24,7 @@ const Frontpage = () => {
                 </a>
             </div>
             <div className="front" style={{position: 'relative'}}>
-                <div style={{position: 'absolute', left: '-16vw', top: '14vh', zIndex: '96'}}>
+                <div style={{position: 'absolute', left: '-17vw', top: '14vh', zIndex: '96'}}>
                 <Video autoPlay loop muted
                     controls={[]}
                     onCanPlayThrough={() => {
