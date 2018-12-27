@@ -67,8 +67,8 @@ const About = () => {
                         <p>Victor <br/> Lindahl</p>
                     </div>
                 </div>
-                <hr></hr>
-                <h2 style={{position: 'relative', float: 'down', marginTop: '60px', marginBottom: '40px'}}>
+                {/* <hr></hr>    */}
+                <h2 style={{position: 'relative', float: 'down', marginTop: '100px', marginBottom: '40px'}}>
                     Background
                 </h2>
 

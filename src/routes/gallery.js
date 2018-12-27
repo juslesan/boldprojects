@@ -23,7 +23,7 @@ const Gallery = () => {
     return(
         <div className='gallery'>
             <Backhome/>
-            <h1>
+            <h1 style={{marginTop: '75px'}}>
                 Gallery
             </h1>
             <div className='galleryWrapper'>
