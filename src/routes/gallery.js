@@ -23,9 +23,9 @@ const Gallery = () => {
     return(
         <div className='gallery'>
             <Backhome/>
-            <h2>
+            <h1>
                 Gallery
-            </h2>
+            </h1>
             <div className='galleryWrapper'>
                 <div className="galleryCol1">
                     <img src={Pic5} alt="picture"></img>

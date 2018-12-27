@@ -36,7 +36,7 @@
 
 .frontCont {
   height: 30vh;
-  margin-bottom: 15vh;
+  margin-bottom: 10vw;
   z-index: 99;
 }
 
@@ -108,18 +108,19 @@
 
 .about {
   font-family: Montserrat;
-
+  color: black;
 }
 .aboutBulk {
   margin: 10px;
-  margin-top: 80vh;
+  margin-top: 70vh;
 
 }
 .aboutBulk > p {
   text-align: center
 }
-.aboutBulk > h2 {
+.aboutBulk > h1 {
   text-align: center;
+  font-size: 45px;
 }
 .aboutBulk > hr {
   color: black;
@@ -157,8 +158,11 @@
   font-size: 18px;
 }
 
-.gallery > h2 {
+.gallery > h1 {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 45px;
 }
 
 .galleryWrapper {
@@ -181,7 +185,7 @@
 }
 .galleryCol2 > img {
   position: relative;
-  top: 22vh;
+  top: 12vw;
   width: 100%;
 }
 .galleryCol3 {
@@ -190,6 +194,6 @@
 }
 .galleryCol3 > img {
   position: relative;
-  top: 11vh;
+  top: 6vw;
   width: 100%;
 }
