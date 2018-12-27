@@ -23,9 +23,9 @@ const About = () => {
                     Our projects are eco-friendly, creative and bold.
                 </p>
 
-                <hr></hr>
+                {/* <hr></hr> */}
 
-                <h1 style={{marginTop: '50px', marginBottom: '50px'}}>The Doers</h1>
+                <h2 style={{marginTop: '25vw', marginBottom: '50px'}}>The Doers</h2>
                 <div className="doers" style={{position: 'relative'}}>
                     <div className="doer">
                         <img src={Bernhard} alt="kuva" width="100%"></img>
@@ -58,7 +58,7 @@ const About = () => {
                     <div className="doer">
                         <img src={Pernilla} alt="kuva" width="100%"></img>
                         <p>Member</p>
-                        <p>Pirnilla <br/> Marjula</p>
+                        <p>Pirnilla <br/> Harjula</p>
 
                     </div>
                     <div className="doer">
@@ -68,9 +68,9 @@ const About = () => {
                     </div>
                 </div>
                 <hr></hr>
-                <h1 style={{position: 'relative', float: 'down', marginTop: '60px', marginBottom: '40px'}}>
+                <h2 style={{position: 'relative', float: 'down', marginTop: '60px', marginBottom: '40px'}}>
                     Background
-                </h1>
+                </h2>
 
                 <p style={{textAlign: 'justify'}}>
                     Bold Projects is a nonprofit association founded in Helsinki in 2018. With our bold endeavors, we want to help charities raise awareness and funds. We want to provide our members with a platform where they can co-organize and create daring projects. It is of paramount importance to us that the projects are environmental and maintain a certain level of visual imagery. 
