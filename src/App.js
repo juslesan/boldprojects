@@ -13,6 +13,7 @@ import Contact from './routes/contact';
 import Gallery from './routes/gallery';
 import Voyage from './routes/voyage';
 import News from './routes/news';
+import ScrollToTop from 'react-scroll-up'
 
 
 // import react-bootstrap from 'react-bootstrap'
@@ -31,7 +32,7 @@ class App extends React.Component {
             <Router>
                 <div>
                     
-                    <div style={{position: 'relative', width: '60vw', top: '0vw', marginLeft: '10vw', marginRight: '10vw'}}>
+                    <div className="wrapper">
                         <Route exact path="/" render={() =>
                             <Frontpage/>}
                         />
@@ -57,7 +58,11 @@ class App extends React.Component {
                             <Contact/>}
                         />
                     </div>
+                    <ScrollToTop showUnder={300}>
+                        <span style={{display: 'block', fontFamily: 'Montserrat', fontSize: '14px', textAlign: 'center'}}>back <br/> up</span>
+                    </ScrollToTop>
                 </div>
+                
             </Router>
             
         </div>

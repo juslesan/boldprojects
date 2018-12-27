@@ -7,7 +7,6 @@ import Pernilla from '../img/Pernilla.jpg'
 import Thomas from '../img/Thomas.jpg'
 import Valtteri from '../img/Valtteri.jpg'
 import Victor from '../img/Victor.jpg'
-import ScrollToTop from 'react-scroll-up'
 import Backhome from '../components/backhome'
 
 const About = () => {
@@ -122,9 +121,6 @@ const About = () => {
 
                     The last kilometer started about 8 p.m and Linus and Eddie pushed to their bodies for the last time and when only 100 meters were left they saw their friends and family holding up the finish line. They gathered their last strengths and started running, Eddie leaning on Linus for help. Maybe not the most heroic entrance but that couldn’t bother them less. After approximately 15 hours on the road, 100 km executed and 12190 euros collected Linus and Eddie crossed the finish line and completed their first 100 km in total euphoria.
                 </p>
-                <ScrollToTop showUnder={300}>
-                    <span>Back up</span>
-                </ScrollToTop>
             </div>
         </div>
     )
