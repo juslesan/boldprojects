@@ -132,7 +132,8 @@
 .doers{
   position: relative;
   left: 0vh;
-  text-align: Center
+  text-align: Center;
+  margin-bottom: 50px;
 }
 .doer {
   display: inline-block;
@@ -148,4 +149,47 @@
   margin-bottom: 0px;
   padding: 1px;
   font-size: 17px;
+}
+
+.gallery {
+  font-family: Montserrat;
+  color: black;
+  font-size: 18px;
+}
+
+.gallery > h2 {
+  text-align: center;
+}
+
+.galleryWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4vw;
+  grid-auto-rows: minmax(100px, auto);
+}
+.galleryCol1 {
+  width: 18vw;
+  margin-top: 4vh; 
+}
+.galleryCol1 > img {
+  position: relative;
+  width: 100%;
+}
+.galleryCol2 {
+  margin-top: 4vh; 
+  width: 18vw;
+}
+.galleryCol2 > img {
+  position: relative;
+  top: 22vh;
+  width: 100%;
+}
+.galleryCol3 {
+  margin-top: 0vh; 
+  width: 18vw;
+}
+.galleryCol3 > img {
+  position: relative;
+  top: 11vh;
+  width: 100%;
 }

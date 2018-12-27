@@ -8,15 +8,16 @@ import Thomas from '../img/Thomas.jpg'
 import Valtteri from '../img/Valtteri.jpg'
 import Victor from '../img/Victor.jpg'
 import ScrollToTop from 'react-scroll-up'
+import Backhome from '../components/backhome'
+
 const About = () => {
 
     return(
         <div className="about">
-            <a href="/" style={{}}>back</a>
-
+            <Backhome/>
             <div className="aboutBulk">
                 <h2>About</h2>
-                <p>
+                <p style={{marginBottom: '50px'}}>
                     Bold Projects is a nonprofit association founded in Helsinki in 2018. 
                     With our annual daring endeavors we want to help charities raise awareness and funds. 
                     Our projects are eco-friendly, creative and bold.
