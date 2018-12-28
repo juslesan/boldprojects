@@ -13,7 +13,7 @@ const About = () => {
 
     return(
         <div className="about">
-            <Backhome/>
+            {/* <Backhome/> */}
             <div className="aboutBulk">
                 <h1>About</h1>
                 <p style={{marginBottom: '50px'}}>

@@ -10,7 +10,7 @@ import Eddie from '../img/Eddie.jpg'
 const Voyage = () => {
     return(
         <div className="voyage">
-            <Backhome/>
+            {/* <Backhome/> */}
             <h1>
                 Bold Voyage
             </h1>
@@ -42,7 +42,7 @@ const Voyage = () => {
                 for a month in the summer. Then logistics, training schedule and sponsorships were 
                 planned.
             </p>
-            <h1>
+            <h1 style={{marginTop: '50px'}}>
                 The Rowing Team
             </h1>
             <div className="rowingTeam">

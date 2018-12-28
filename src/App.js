@@ -14,6 +14,10 @@ import Gallery from './routes/gallery';
 import Voyage from './routes/voyage';
 import News from './routes/news';
 import ScrollToTop from 'react-scroll-up'
+import Backhome from './components/backhome.js'
+import Arrow from './img/Up_icon.png'
+
+
 
 
 // import react-bootstrap from 'react-bootstrap'
@@ -31,7 +35,8 @@ class App extends React.Component {
         
             <Router>
                 <div>
-                    
+                <Backhome/>
+
                     <div className="wrapper">
                         <Route exact path="/" render={() =>
                             <Frontpage/>}
@@ -58,8 +63,8 @@ class App extends React.Component {
                             <Contact/>}
                         />
                     </div>
-                    <ScrollToTop showUnder={300}>
-                        <span style={{display: 'block', fontFamily: 'Montserrat', fontSize: '14px', textAlign: 'center'}}>back <br/> up</span>
+                    <ScrollToTop showUnder={600}>
+                        <img src={Arrow} alt="back up" style={{width: '4vw'}}></img>
                     </ScrollToTop>
                 </div>
                 
