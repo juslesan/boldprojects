@@ -6,6 +6,8 @@
   margin-left: 10vw;
   margin-right: 10vw;
   font-family: Montserrat;
+  font-size: 18px;
+
 }
 /* ----------------------------------------------------------------------------------- */
 
@@ -107,8 +109,8 @@
   z-index: 97;
   margin-left: 0vw;
   margin-right: 0vw; 
-  top: 30%;
-  left: 42%;
+  top: 28%;
+  left: 40%;
 }
 
 .logoContainer a > img:hover {
@@ -127,7 +129,7 @@
 }
 .aboutBulk > p {
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
 }
 .aboutBulk > h1 {
   text-align: center;
@@ -163,7 +165,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 1px;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 /* ----------------------------------------------------------------------------------- */
 

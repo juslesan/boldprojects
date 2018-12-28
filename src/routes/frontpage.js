@@ -25,14 +25,14 @@ const Frontpage = () => {
             </div> 
             <div className="logoContainer">
                  <a href='/' style={{}}>   
-                    <img src={logo} alt='logo' width='35%' style={{position: 'relative', right: '1vw'}}></img>
+                    <img src={logo} alt='logo' width='35%' style={{position: 'relative', right: '0vw'}}></img>
                 </a>
             </div>
             <div className="front" style={{position: 'relative'}}>
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
                 </h1> */}
-                <div style={{position: 'absolute', left: '-5vw', top: '24vh', zIndex: '96'}}>
+                <div style={{position: 'absolute', left: '-5vw', top: '22.5vh', zIndex: '96'}}>
                 <Video autoPlay loop muted
                     controls={[]}
                     onCanPlayThrough={() => {
