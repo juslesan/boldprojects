@@ -9,6 +9,7 @@ import BL from '../img/Blog_new.png'
 import BV_Ikon from '../img/Bold_Voyage_new.png'
 import NP_Ikon from '../img/Newspaper_new.png'
 import logo from '../img/logo.png';
+import logo2 from '../img/Bold_Logo_Orange.png'
 import video from '../video/promo.mp4'
 // import video2 from '../video/promo2.mp4'
 
@@ -25,7 +26,7 @@ const Frontpage = () => {
             </div> 
             <div className="logoContainer">
                  <a href='/' style={{}}>   
-                    <img className="frontLogo" src={logo} alt='logo'></img>
+                    <img className="frontLogo" src={logo2} alt='logo'></img>
                 </a>
             </div>
             <div className="front" style={{position: 'relative'}}>
