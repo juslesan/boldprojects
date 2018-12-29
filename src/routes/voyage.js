@@ -33,28 +33,28 @@ const Voyage = () => {
                 <div className="rowingCol1">
                     <img src={Valtteri} alt="Valtteri" width="100%"></img>
                     <p>
-                        Valtteri Ikäheimo
+                        Valtteri <br/> Ikäheimo
                     </p>
                 </div>
 
                 <div className="rowingCol2">
                     <img src={Bernhard} alt="Bernhard" width="100%"></img> 
                     <p>
-                        Bernhard Forstén
+                        Bernhard <br/> Forstén
                     </p>
                 </div>
 
                 <div className="rowingCol1">
                     <img src={Eddie} alt="Eddie" width="100%"></img>
                     <p>
-                        Eddie Myrskog
+                        Eddie <br/> Myrskog
                     </p>
                 </div>
 
                 <div className="rowingCol2">
                     <img src={Linus} alt="Linus" width="100%"></img>
                     <p>
-                        Linus Lehto
+                        Linus <br/> Lehto
                     </p>
                 </div>
             </div>
