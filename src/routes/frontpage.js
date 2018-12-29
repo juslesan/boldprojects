@@ -37,7 +37,7 @@ const Frontpage = () => {
                         controls={[]}
                         onCanPlayThrough={() => {
                         }}
-                        style={{width: "105%"}}>
+                        style={{width: "100%"}}>
                         <source src={video} type="video/webm" />
                         {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                     </Video>
