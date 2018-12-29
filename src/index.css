@@ -48,16 +48,17 @@
 .videoCont {
   position: relative;
   float: down;
-  height: 110%;
-  width: 110%; left: -5vw;
-  top: 22.5vh;
+  height: 120%;
+  width: 120%;
+  left: -8vw;
+  top: 17.5vh;
   z-index: 96;
 }
 
-.linkCont {
+.iconLinkCont {
   position: relative;
   float: down;
-  top: 30vh;
+  top: 25vh;
 }
 .frontCont {
   height: 19vw;
@@ -133,7 +134,7 @@
   z-index: 97;
   margin-left: 0vw;
   margin-right: 0vw; 
-  top: 28.5%;
+  top: 25%;
   left: 40%;
 }
 

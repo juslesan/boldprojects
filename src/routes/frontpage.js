@@ -42,7 +42,7 @@ const Frontpage = () => {
                         {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                     </Video>
                 </div>
-                <div className="linkCont">
+                <div className="iconLinkCont">
                     <div className="frontCont">
                         <div className="rightLean">
                             <div className="linkImgContainer">
