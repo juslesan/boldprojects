@@ -45,6 +45,20 @@
 
 }
 
+.videoCont {
+  position: relative;
+  float: down;
+  height: 110%;
+  width: 110%; left: -5vw;
+  top: 22.5vh;
+  z-index: 96;
+}
+
+.linkCont {
+  position: relative;
+  float: down;
+  top: 30vh;
+}
 .frontCont {
   height: 19vw;
   margin-bottom: 10vw;
@@ -101,6 +115,16 @@
   z-index: 97;
 }
 
+.leftLean > .imgLink {
+  left: 0px;
+}
+
+.rightLean > .linkImgContainer > a > img {
+  right: -3vw;
+}
+.leftLean > .linkImgContainer > a > img {
+  left: -3vw;
+}
 .linkImg:hover{
   opacity: 0.6;
 }
@@ -109,12 +133,18 @@
   z-index: 97;
   margin-left: 0vw;
   margin-right: 0vw; 
-  top: 28%;
+  top: 28.5%;
   left: 40%;
 }
 
 .logoContainer a > img:hover {
   background-color: azure
+}
+
+.frontLogo {
+  position: relative;
+  right: 0vw;
+  width: 35%;
 }
 /* ----------------------------------------------------------------------------------- */
 
@@ -221,7 +251,7 @@
 .voyage {
   font-family: Montserrat;
   color: black;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: center;
 }
 
@@ -275,7 +305,7 @@
 .marathon {
   font-family: Montserrat;
   color: black;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: center;
 }
 

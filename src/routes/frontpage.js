@@ -25,14 +25,14 @@ const Frontpage = () => {
             </div> 
             <div className="logoContainer">
                  <a href='/' style={{}}>   
-                    <img src={logo} alt='logo' width='35%' style={{position: 'relative', right: '0vw'}}></img>
+                    <img className="frontLogo" src={logo} alt='logo'></img>
                 </a>
             </div>
             <div className="front" style={{position: 'relative'}}>
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
                 </h1> */}
-                <div style={{position: 'relative', float: 'down', height: '100%', width:'110%', left: '-5vw', top: '22.5vh', zIndex: '96'}}>
+                <div className="videoCont">
                     <Video autoPlay loop muted
                         controls={[]}
                         onCanPlayThrough={() => {
@@ -42,12 +42,12 @@ const Frontpage = () => {
                         {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                     </Video>
                 </div>
-                <div style={{position: 'relative', float: 'down', top: '30vh'}}>
+                <div className="linkCont">
                     <div className="frontCont">
                         <div className="rightLean">
                             <div className="linkImgContainer">
                                 <a href='/voyage'>
-                                    <img className="linkImg" src={BV_Ikon} alt='logo' style={{right: '0px'}}></img>
+                                    <img className="linkImg" src={BV_Ikon} alt='logo'></img>
                                 </a>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Frontpage = () => {
                         <div className="leftLean">
                             <div className="linkImgContainer">
                                 <a href='/marathon'>
-                                    <img className="linkImg" src={B100} alt='logo' style={{left: '0px'}}></img>
+                                    <img className="linkImg" src={B100} alt='logo'></img>
                                 </a>  
                             </div>                 
                         </div>
@@ -67,7 +67,7 @@ const Frontpage = () => {
                         <div className="rightLean">
                             <div className="linkImgContainer">
                                 <a href='/about'>
-                                    <img className="linkImg" src={About} alt='logo' style={{right: '0px'}}></img>
+                                    <img className="linkImg" src={About} alt='logo'></img>
                                 </a>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const Frontpage = () => {
                         <div className="rightLean">
                             <div className="linkImgContainer">
                                 <a href='/blog'>
-                                    <img className="linkImg" src={BL} alt='logo' width='100%' style={{right: '0px'}}></img>
+                                    <img className="linkImg" src={BL} alt='logo'></img>
                                 </a> 
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const Frontpage = () => {
                         <div className="leftLean">
                             <div className="linkImgContainer">
                                 <a href='/gallery'>
-                                    <img className="linkImg" src={Gallery} alt='logo' width='100%'></img>
+                                    <img className="linkImg" src={Gallery} alt='logo'></img>
                                 </a>
                             </div>
                         </div>
