@@ -5,10 +5,10 @@ const Backhome = () => {
     return (
         <div>
             <a href= '/'>
-                <img src={Back} alt="back" width='5%' style={{position: 'fixed',
+                <img src={Back} alt="back" width='8%' style={{position: 'fixed',
                                                                 left: '0vw',
                                                                 top: '0vw',
-                                                                margin: '10px'}}>
+                                                                margin: '1vw'}}>
                 </img>
             </a>
         </div>
