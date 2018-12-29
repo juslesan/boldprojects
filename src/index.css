@@ -177,17 +177,19 @@
   color: black;
   font-size: 18px;
 }
-.doers{
-  position: relative;
-  left: 0vh;
-  text-align: Center;
-  margin-bottom: 50px;
+.doerWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4vw;
+    grid-auto-rows: minmax(100px, auto);
+    left: -2vw;
+    font-size: 1.7vw;
+    margin-top: 50px;
 }
 .doer {
   display: inline-block;
-  margin: 22px;
   margin-bottom: 0px;
-  width: 13vw;
+  width: 18vw;
   height: 100%;
 }
 

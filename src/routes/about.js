@@ -25,7 +25,7 @@ const About = () => {
                 {/* <hr></hr> */}
 
                 <h2 style={{marginTop: '25vw', marginBottom: '50px'}}>The Doers</h2>
-                <div className="doers" style={{position: 'relative'}}>
+                <div className="doerWrapper" style={{position: 'relative'}}>
                     <div className="doer">
                         <img src={Bernhard} alt="kuva" width="100%"></img>
                         <p>Co-founder</p>
