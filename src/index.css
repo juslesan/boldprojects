@@ -154,13 +154,19 @@
   color: black;
 }
 .aboutBulk {
+  position: relative;
+  width: 120%;
   margin: 10px;
   margin-top: 37vh;
-
+  left: -10%;
 }
 .aboutBulk > p {
-  text-align: center;
-  font-size: 18px;
+  position: 'relative';
+  /* width: 120%; */
+    /* left: 20%; */
+  text-align: justify;
+  margin-top: 25px;
+  /* font-size: 18px; */
 }
 .aboutBulk > h1 {
   text-align: center;
@@ -182,14 +188,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4vw;
     grid-auto-rows: minmax(100px, auto);
-    left: -2vw;
+    left: 1vw;
     font-size: 1.7vw;
     margin-top: 50px;
 }
 .doer {
   display: inline-block;
   margin-bottom: 0px;
-  width: 18vw;
+  width: 20vw;
   height: 100%;
 }
 
