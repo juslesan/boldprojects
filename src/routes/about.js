@@ -72,54 +72,36 @@ const About = () => {
                 </h2>
 
                 <p style={{textAlign: 'justify'}}>
-                    Bold Projects is a nonprofit association founded in Helsinki in 2018. With our bold endeavors, we want to help charities raise awareness and funds. We want to provide our members with a platform where they can co-organize and create daring projects. It is of paramount importance to us that the projects are environmental and maintain a certain level of visual imagery. 
-                    <br/>
-                    <br/>
+                In the summer of 2017, Bernhard Forstén called Eddie Myrskog with the question: “Do you want to run?” A bit baffled by the question but eager to know more, Eddie responded: “Yes!”. The plan was to start from Helsinki and run 100 km down to the city of Tammisaari. Five days after the odd phone call Bernhard and Eddie began their adventure. 
+                <br/><br/>
+                The pace was fast and by the first marathon they had clocked a time to be proud of, but there was still 60 km left. Soon enough they realised they underestimated the distance. After approximately 70 km the first attempt to finish the 100 km race came to its end. On that same day however, they swore to each other that they would do it again next year and that they would succeed.
+                <br/><br/>
 
-                    In the summer of 2017, Bernhard Forstén called Eddie Myrskog with the question: “Do you want to run?” A bit baffled by the question but eager to know more, Eddie responded: “Yes!”. The plan was to start from Helsinki and run 100 km down to the city of Tammisaari. Five days after the critical phone call Bernhard and Eddie began their adventure. 
+                Roughly 8 months later the talks about the 100 km race stirred up again. By now, Bernhard and Eddie had been joined by Linus and the team had grown from two members to three. The group had also been struck by some bad news. Bernhard’s mother was fighting breast cancer and Eddie’s aunt had also recently struggled with breast cancer. Fortunately both of them recovered, but sadly the same cannot be said of the 5000 men and women affected by breast cancer every year. This encouraged them to combine their project with fundraising for breast cancer research. 
+                <br/><br/>
 
-                    <br/>            
-                    <br/>
+                By May 2018, the training was in full swing. The team exercised six times a week and contacted sponsors and planned the run whenever they had the chance. The project was now called Bold100, since running 100 km and fighting against breast cancer requires a bit of boldness. They started to get a following on social media and the amount of donations increased.
+                <br/><br/>
 
-                    The pace was quick and by the first marathon they had clocked a time to be proud of, but there was still 60 km left. Halfway there they made a crucial mistake, they had a full lunch at a restaurant by the road. The pace slightly sunk and the legs started to feel heavy. Another 20 km and they realized they weren’t going to make it. So after approximately 70 km the first attempt to finish the 100 km race came to its end. But on that same day they swore to each other that they would do it again next year and this time, they would succeed.
+                A month before the run, the group once again received some bad news. Bernhard had a problem with his back and a visit to the doctor’s office showed that he had spinal disc herniation and that he wouldn’t be able to participate in the run. The team had now been reduced to two runners, which was a blessing in disguise since Bernhard’s new role in the support team was significant for the duo’s success.
+                <br/><br/>
 
-                    <br/>            
-                    <br/>
+                The time flew by and suddenly it was the day they had all been waiting for. By now the team included Richard who was going to drive the support car and Thomas who operated the camera. On August 31st they woke up before the break of dawn to do their last minute preparations. At six o’clock they started to run. 
+                <br/><br/>
 
-                    Roughly 8 months later the talks about the 100 km race stirred up again. At a common friends house party, Bernhard and Eddie met Linus who was an old acquaintance of theirs. He had recently read a book about ultramarathons and when he heard about the project he was intrigued. A week after the party the original runners called Linus and asked if he was still interested, and on that day the team grew from two members to three. 
+                The duo tried not to think about the whole distance and instead focus on short-term goals. By 30 km this tactic had worked flawlessly. Cars driving past them honked their horns in support. Friends and family supported them on social media where the duo updated them about their state. And the project had already raised over 7000 euros. Inspired by this, they happily continued.
+                <br/><br/>
 
-                    <br/>           
-                    <br/>
+                Reaching 50 km, the halfway mark, the runners stated that it was still going well. But after 20 km more, Eddie started to feel a pain in his knee. By 80 km, Eddie wasn’t able to run anymore. He was however able to walk without pain and they decided that the most important part is to finish the project. So they began to walk.
+                <br/><br/>
 
-                    That same year the group was struck by some bad news. Bernhard's mother had got breast cancer. Luckily the health care in Finland is amazing and after a few months, she was back to her normal self. Eddies aunt had also recently struggled with breast cancer and Linus himself had struggled with cancer a year before. Fortunately, all of them survived and could go on with their lives. But in Finland over 5000 women and men are affected by breast cancer. This made us think about bringing a charity aspect to our project. If we are going to suffer for 100 km, why not make someone else benefit from it? So via Pink Ribbon in Finland, WE began to raise funds for breast cancer research. 
+                This was very challenging and actually the first time the duo wondered if they would make it to the finish line. Once again inspired by the public’s support, they proceeded one step at a time. Linus and Eddie reached 90 km and the last 10 km were ahead of them. The project had now raised over 10000 euros and the duo simply kept on walking. 
+                <br/><br/>
 
-                    <br/>
-                    <br/>
+                After walking for what felt like an eternity they reached 99 km. At this point friends and family joined to cheer them on for the final moments. As they saw the finish line, they started running. After 15 hours on the road, 100 km covered and 12190 euros raised, Linus and Eddie crossed the finish line in total euphoria. 
+                <br/><br/>
 
-
-                    In May 2018 the training fully started. The team trained 6 times a week and when they did not train they contacted sponsors, planned the project and prepared themselves. The project was now called Bold100 since running 100 km and fighting against breast cancer requires a bit of boldness. They created a social media account and quite quickly they got a following. People, mostly in Helsinki, liked the project and shared it on social media. The newspaper in Helsinki contacted us and we conducted a couple of radio interviews. The donations also started to roll in and suddenly we had broken our first thousand euros. Training proceeded and the day of the run got closer and closer.
-
-                        
-                    <br/>
-                    <br/>
-
-                    A month before the day of the run the group got once again some bad news. Bernhard had a problem with his back and a visit to the doctor’s office showed that he had a spinal disc herniation and that he wouldn’t be able to run for 3 months. Thus were the three runners reduced to two and Bernhard changed his role in the project from runner to a part of the support team. Luckily for the runners, since his work and enthusiasm helped them a long way.
-
-                    <br/>
-                    <br/>
-
-
-                    The days went by and suddenly it was the day they had all been waiting for. On the 31st of August, the two runners and the support team woke up at five in the morning to do their last minute preparations and at six o’clock sharp they started to run. The weather was cold and the morning foggy but it was breathtakingly beautiful as well. The first 10 km went by and the runners enjoyed themselves. The support team drove ahead of them and filmed the performance with cameras and drones and distributed food when the runners needed energy. After 20 km the ultra marathoners felt as happy as ever still. They had a lot of energy and the weather was getting more and more beautiful by the minute. At this point, the donations also started to roll in as well as the support messages from friends and family. The cars that passed them were all honking in support and that inspired the runners massively. 30 km went by and so did 40 and 50, the feeling in the team was still at its peak. Some minor setbacks that could be fixed with a couple of band-aids and food but other than that the team was feeling great. The donations were also coming in at a high pace and suddenly they were up to 8000 euros. 
-
-                    <br/>
-                    <br/>
-
-                    When they reached 70 km Eddie started to feel something in his knee. It wasn’t pain but something was definitely not right. A couple more km and he realized he wasn’t going to be able to run the last 20 km. They took a short break to plan what to do and came to the conclusion that Eddie could make it by walking. So the running turned into walking, the goal for the team was to make it to the finish line. If that would mean by running, walking or crawling did not matter. Once again the public’s reactions inspired them to keep going. Friends and family gathered by the side of the road to cheer them on, cars continued to honk and the donations reached to 10000 euros. The last kilometers were painful but also the proudest. They made it to 90 km and the last 10 km were live streamed. They reached 91 km, 92, 93, 94 and by 95 km they realized, especially Eddie, that they actually would make it. They had been running for 13 hours at this point and the feelings were a mixture of happiness, sleepiness, pride and overall confusion. And probably a hundred other feelings. 	
-
-                    <br/>
-                    <br/>
-
-                    The last kilometer started about 8 p.m and Linus and Eddie pushed to their bodies for the last time and when only 100 meters were left they saw their friends and family holding up the finish line. They gathered their last strengths and started running, Eddie leaning on Linus for help. Maybe not the most heroic entrance but that couldn’t bother them less. After approximately 15 hours on the road, 100 km executed and 12190 euros collected Linus and Eddie crossed the finish line and completed their first 100 km in total euphoria.
+	            creating a project and doing everything from scratch with a team of equally passionate individuals was something everyone enjoyed. In November of 2018 the Bold100 team decided to found an association and create more projects of the same caliber. That association is Bold Projects.
                 </p>
             </div>
         </div>
