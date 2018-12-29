@@ -8,7 +8,8 @@ const Backhome = () => {
                 <img src={Back} alt="back" width='8%' style={{position: 'fixed',
                                                                 left: '0vw',
                                                                 top: '0vw',
-                                                                margin: '1vw'}}>
+                                                                marginTop: '1vw',
+                                                                marginLeft: '3vw'}}>
                 </img>
             </a>
         </div>
