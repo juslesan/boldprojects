@@ -6,7 +6,7 @@ import water from '../img/gallery/water.jpg'
 const Marathon = () => {
     return(
         <div className="marathon">
-            <Backhome/>
+            {/* <Backhome/> */}
             <h1>
                 Bold 100
             </h1>
@@ -18,7 +18,7 @@ const Marathon = () => {
                 of a mix of rural and urban areas. The prize to participate and all other incomes 
                 will go directly to our Baltic Sea fund.    
             </p>
-            <img src={water} alt="picture" width="65%" style={{marginTop: '50px'}}></img>
+            <img src={water} alt="picture" width="60%" style={{marginTop: '50px', marginBottom: '25px'}}></img>
         
         </div>
     )

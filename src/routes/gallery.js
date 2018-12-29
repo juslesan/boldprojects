@@ -22,8 +22,7 @@ import water from '../img/gallery/water.jpg'
 const Gallery = () => {
     return(
         <div className='gallery'>
-            <Backhome/>
-            <h1 style={{marginTop: '75px'}}>
+            <h1 style={{marginTop: '75px', marginBottom: '0px'}}>
                 Gallery
             </h1>
             <div className='galleryWrapper'>

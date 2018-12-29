@@ -32,17 +32,17 @@ const Frontpage = () => {
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
                 </h1> */}
-                <div style={{position: 'absolute', left: '-5vw', top: '22.5vh', zIndex: '96'}}>
-                <Video autoPlay loop muted
-                    controls={[]}
-                    onCanPlayThrough={() => {
-                    }}
-                    style={{width: "105%"}}>
-                    <source src={video} type="video/webm" />
-                    {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
-                </Video>
+                <div style={{position: 'relative', float: 'down', height: '100%', width:'110%', left: '-5vw', top: '22.5vh', zIndex: '96'}}>
+                    <Video autoPlay loop muted
+                        controls={[]}
+                        onCanPlayThrough={() => {
+                        }}
+                        style={{width: "105%"}}>
+                        <source src={video} type="video/webm" />
+                        {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
+                    </Video>
                 </div>
-                <div style={{position: 'relative', top: '92vh'}}>
+                <div style={{position: 'relative', float: 'down', top: '30vh'}}>
                     <div className="frontCont">
                         <div className="rightLean">
                             <div className="linkImgContainer">
