@@ -16,7 +16,7 @@ const About = () => {
             {/* <Backhome/> */}
             <div className="aboutBulk">
                 <h1>About</h1>
-                <p style={{marginBottom: '50px'}}>
+                <p style={{marginBottom: '50px', textAlign: 'center'}}>
                     Bold Projects is a nonprofit association founded in Helsinki in 2018. 
                     With our annual daring endeavors we want to help charities raise awareness and funds. 
                     Our projects are eco-friendly, creative and bold.
