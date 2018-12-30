@@ -3,8 +3,10 @@ import '../index.css'
 
 const Contact = () => {
     return(
-        <div>
-            contact
+        <div className="contactPage">
+            <h1>
+                Contact
+            </h1>
         </div>   
     )
 }

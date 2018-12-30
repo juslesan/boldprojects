@@ -383,3 +383,21 @@
 
   font-size: 45px;
 }
+
+/* ----------------------------------------------------------------------------------- */
+
+.contactPage {
+  font-family: Montserrat;
+  color: black;
+  /* font-size: 18px; */
+  text-align: center;
+  position: relative;
+  width: 120%;
+  left: -10%; 
+}
+
+.contactPage > h1 {
+  margin-top: 25vh;
+
+  font-size: 45px;
+}
