@@ -44,26 +44,26 @@
   /* z-index: 99; */
 
 }
-.videoWrapper {
+/* .videoWrapper {
   position: relative;
   top: 50vh;
   height: 100%;
-}
+} */
 .videoCont {
   position: relative;
   float: down;
   height: 120%;
   width: 120%;
   left: -6vw;
-  top: -18vw;
+  top: 10vw;
   z-index: 96;
 }
 
 .iconLinkCont {
-  position: absolute;
+  position: relative;
   float: down;
   width: 100%;
-  top: 92vh;
+  top: 30vh;
 }
 .frontCont {
   height: 19vw;
