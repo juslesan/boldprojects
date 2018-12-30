@@ -8,6 +8,7 @@ const Blog = () => {
                 Blog
             </h1>
             <p>
+                The first edition will be published on February the 1st.
             </p>
         </div>
     )

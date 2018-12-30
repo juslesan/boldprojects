@@ -363,6 +363,7 @@
 
 .blog > h1 {
   margin-top: 25vh;
+  margin-bottom: 10vh;
 
   font-size: 45px;
 }
@@ -380,6 +381,7 @@
 }
 .newspaper > h1 {
   margin-top: 25vh;
+  margin-bottom: 10vh;
 
   font-size: 45px;
 }
