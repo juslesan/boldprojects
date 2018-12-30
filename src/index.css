@@ -7,7 +7,21 @@
   margin-right: 10vw;
   font-family: Montserrat;
   font-size: 22px;
+  font-weight: 800;
   margin-bottom: 5vh;
+}
+
+.backhome {
+  position: fixed;
+  left: 0vw;
+  top: 0vw;
+  margin-top: 2vh;
+  margin-left: 5vw;
+  width: 4%;
+}
+
+.backhome:hover {
+  opacity: 0.7;
 }
 /* ----------------------------------------------------------------------------------- */
 
@@ -21,6 +35,8 @@
 .leftLean > a {
   color: black;
   font-family: Montserrat;
+  font-weight: 800;
+
   /* font-weight: 900; */
   font-size: 25px;
   /* z-index: 99; */
@@ -100,6 +116,8 @@
   position: fixed;
   right: 2vw;
   top: 1vh;
+  font-weight: 800;
+
 }
 
 .contact > a {
@@ -157,7 +175,8 @@
 /* ----------------------------------------------------------------------------------- */
 
 .about {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
+  font-weight: 800;
   color: black;
 }
 .aboutBulk {
@@ -179,9 +198,13 @@
 .aboutBulk > h1 {
   text-align: center;
   font-size: 45px;
+  font-weight: 800;
+
 }
 .aboutBulk > h2 {
   text-align: center;
+  font-weight: 800;
+
 }
 .aboutBulk > hr {
   color: black;
@@ -227,6 +250,8 @@
   margin-top: 15vh;
   margin-bottom: 10vh;
   font-size: 45px;
+  font-weight: 800;
+
 }
 
 .galleryWrapper {
@@ -287,6 +312,8 @@
   margin-top: 25vh;
   font-size: 45px;
   margin-bottom: 10vh;
+  font-weight: 800;
+
 }
 
 .rowingTeam {
@@ -330,6 +357,8 @@
 .marathon {
   font-family: Montserrat;
   color: black;
+  font-weight: 800;
+
   /* font-size: 18px; */
   text-align: center;
   position: relative;
@@ -340,6 +369,8 @@
 .marathon > h1 {
   margin-top: 25vh;
   font-size: 45px;
+  font-weight: 800;
+
   margin-bottom: 5vh;
 
 }
@@ -363,7 +394,7 @@
 
 .blog > h1 {
   margin-top: 25vh;
-  margin-bottom: 10vh;
+  font-weight: 800;
 
   font-size: 45px;
 }
@@ -382,6 +413,7 @@
 .newspaper > h1 {
   margin-top: 25vh;
   margin-bottom: 10vh;
+  font-weight: 800;
 
   font-size: 45px;
 }
@@ -401,6 +433,7 @@
 .contactPage > h1 {
   margin-top: 25vh;
   margin-bottom: 10vh;
+  font-weight: 800;
 
   font-size: 45px;
 }

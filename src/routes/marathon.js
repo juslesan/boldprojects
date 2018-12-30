@@ -11,7 +11,7 @@ const Marathon = () => {
                 Bold 100
             </h1>
             <img src={B100} alt="picture" width="25%" style={{marginBottom: '15vh'}}></img>
-            <p>
+            <p style={{fontWeight: '600'}}>
                 Since we enjoyed ourselves so much during our 100 km run, we thought we would 
                 give others the same opportunity. In the summer of 2019 we will organize the 
                 first public Bold100 run. The race will go through the capital region and consist 

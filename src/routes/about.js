@@ -71,7 +71,7 @@ const About = () => {
                     Background
                 </h2>
 
-                <p style={{textAlign: 'justify'}}>
+                <p style={{textAlign: 'justify', fontWeight: '600'}}>
                 In the summer of 2017, Bernhard Forstén called Eddie Myrskog with the question: “Do you want to run?” A bit baffled by the question but eager to know more, Eddie responded: “Yes!”. The plan was to start from Helsinki and run 100 km down to the city of Tammisaari. Five days after the odd phone call Bernhard and Eddie began their adventure. 
                 <br/><br/>
                 The pace was fast and by the first marathon they had clocked a time to be proud of, but there was still 60 km left. Soon enough they realised they underestimated the distance. After approximately 70 km the first attempt to finish the 100 km race came to its end. On that same day however, they swore to each other that they would do it again next year and that they would succeed.
