@@ -8,6 +8,7 @@ const News = () => {
                 Newspaper
             </h1>
             <p>
+                The first edition will be published on January the 10th.
             </p>
         </div>
     )

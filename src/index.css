@@ -145,7 +145,7 @@
 
 .logoContainer a > img:hover {
   /* background-color: azure; */
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .frontLogo {
@@ -339,8 +339,8 @@
 
 .marathon > h1 {
   margin-top: 25vh;
-  font-size: 60px;
-  margin-bottom: 50px;
+  font-size: 45px;
+  margin-bottom: 5vh;
 
 }
 .marathon > p {
@@ -398,6 +398,20 @@
 
 .contactPage > h1 {
   margin-top: 25vh;
+  margin-bottom: 10vh;
 
   font-size: 45px;
+}
+.contactPage > p {
+  margin: 2vw; 
+}
+.contactPage > p > a {
+  color: black;
+  font-family: Montserrat;
+  margin: 2vw; 
+
+  /* font-weight: 900; */
+  /* font-size: 2vw; */
+  /* margin-top: 5vh; */
+  /* margin-right: 2vw; */
 }

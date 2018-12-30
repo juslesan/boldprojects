@@ -15,7 +15,7 @@ import Voyage from './routes/voyage';
 import News from './routes/news';
 import ScrollToTop from 'react-scroll-up'
 import Backhome from './components/backhome.js'
-import Arrow from './img/Up_icon.png'
+import Arrow from './img/up_icon_new.png'
 
 
 
@@ -68,7 +68,7 @@ class App extends React.Component {
                         />
                     </div>
                     <ScrollToTop showUnder={600}>
-                        <img src={Arrow} alt="back up" style={{width: '4vw'}}></img>
+                        <img src={Arrow} alt="back up" style={{width: '3vw'}}></img>
                     </ScrollToTop>
                 </div>
                 

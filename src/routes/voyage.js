@@ -4,7 +4,7 @@ import Backhome from '../components/backhome'
 import illu from '../img/BV_Wave_Illu.png'
 import Bernhard from '../img/Bernhard_new.jpg'
 import Linus from '../img/Linus.jpg'
-import Valtteri from '../img/Valtteri.jpg'
+import Valtteri from '../img/Valtteri_new.jpg'
 import Eddie from '../img/Eddie.jpg'
 
 const Voyage = () => {
