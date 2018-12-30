@@ -31,7 +31,9 @@ class App extends React.Component {
   render() {
       return (
         
-        <div className="containerFluid" style={{ position: 'absolute', marginLeft: '10vw', marginRight: '10vw'}}>
+        <div className="containerFluid" style={{position: 'absolute',
+                                                marginLeft: '10vw',
+                                                marginRight: '10vw'}}>
         
             <Router>
                 <div>

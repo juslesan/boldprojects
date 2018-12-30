@@ -16,7 +16,9 @@ const Marathon = () => {
                 give others the same opportunity. In the summer of 2019 we will organize the 
                 first public Bold100 run. The race will go through the capital region and consist 
                 of a mix of rural and urban areas. The prize to participate and all other incomes 
-                will go directly to our Baltic Sea fund.    
+                will go directly to our Baltic Sea fund.
+                <br/><br/>
+                More information about the ultra marathon and a registration form will be available in the end of January
             </p>
             <img src={water} alt="picture" width="60%" style={{marginTop: '50px', marginBottom: '25px'}}></img>
         

@@ -5,7 +5,7 @@ import Backhome from '../components/backhome.js'
 import About from '../img/About_icon_new_1.png'
 import Gallery from '../img/Gallery_icon.png'
 import B100 from '../img/B100new.png'
-import BL from '../img/Blog_new.png'
+import BL from '../img/Blog_vlog_icon_new.png'
 import BV_Ikon from '../img/Bold_Voyage_new.png'
 import NP_Ikon from '../img/Newspaper_new.png'
 import logo from '../img/logo.png';
@@ -30,15 +30,17 @@ const Frontpage = () => {
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
                 </h1> */}
-                <div className="videoCont">
-                    <Video autoPlay loop muted
-                        controls={[]}
-                        onCanPlayThrough={() => {
-                        }}
-                        style={{width: "100%"}}>
-                        <source src={video} type="video/webm" />
-                        {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
-                    </Video>
+                <div className="videoWrapper">
+                    <div className="videoCont">
+                        <Video autoPlay loop muted
+                            controls={[]}
+                            onCanPlayThrough={() => {
+                            }}
+                            style={{width: "100%"}}>
+                            <source src={video} type="video/webm" />
+                            {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
+                        </Video>
+                    </div>
                 </div>
                 <div className="iconLinkCont">
                     <div className="frontCont">

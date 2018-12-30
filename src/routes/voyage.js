@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import Backhome from '../components/backhome'
 import illu from '../img/BV_Wave_Illu.png'
-import Bernhard from '../img/Bernhard.jpg'
+import Bernhard from '../img/Bernhard_new.jpg'
 import Linus from '../img/Linus.jpg'
 import Valtteri from '../img/Valtteri.jpg'
 import Eddie from '../img/Eddie.jpg'
@@ -14,7 +14,7 @@ const Voyage = () => {
             <h1>
                 Bold Voyage
             </h1>
-            <img src={illu} alt="picture" width="25%" style={{marginBottom: '50px'}}></img>
+            <img src={illu} alt="picture" width="25%" style={{marginBottom: '20vh'}}></img>
             
             <p>
             After completing the Bold100 project in the summer of 2018 we instantly began to think about possible upcoming projects. Two thoughts were central at that moment: it had to be extreme and it had to be charitable. The climate report from IPCC had been released that same year and a lot of focus was on the Baltic Sea and its alarmingly bad condition. This gave us the idea to raise funds for the Baltic Sea. Now we had to come up with a way of challenging ourselves in an unfamiliar element, the sea. 

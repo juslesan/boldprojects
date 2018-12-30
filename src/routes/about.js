@@ -1,7 +1,7 @@
 import React from 'react'
 import '../index.css'
 import Eddie from '../img/Eddie.jpg'
-import Bernhard from '../img/Bernhard.jpg'
+import Bernhard from '../img/Bernhard_new.jpg'
 import Linus from '../img/Linus.jpg'
 import Pernilla from '../img/Pernilla.jpg'
 import Thomas from '../img/Thomas.jpg'
@@ -57,7 +57,7 @@ const About = () => {
                     <div className="doer">
                         <img src={Pernilla} alt="kuva" width="100%"></img>
                         <p>Member</p>
-                        <p>Pirnilla <br/> Harjula</p>
+                        <p>Pernilla <br/> Harjula</p>
 
                     </div>
                     <div className="doer">
