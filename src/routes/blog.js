@@ -3,8 +3,12 @@ import '../index.css'
 
 const Blog = () => {
     return(
-        <div>
-            blog
+        <div className="blog">
+            <h1>
+                Blog
+            </h1>
+            <p>
+            </p>
         </div>
     )
 }

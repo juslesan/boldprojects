@@ -3,8 +3,12 @@ import '../index.css'
 
 const News = () => {
     return(
-        <div>
-            news
+        <div className="newspaper">
+            <h1>
+                Newspaper
+            </h1>
+            <p>
+            </p>
         </div>
     )
 }
