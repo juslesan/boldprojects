@@ -19,11 +19,8 @@ import 'react-html5video/dist/styles.css';
 const Frontpage = () => {
     return (
         <div style={{marginBottom: '30px'}}>
-            <Backhome/>
+            {/* <Backhome/> */}
 
-            <div className="contact">
-                <a href="/contact">Contact</a> 
-            </div> 
             <div className="logoContainer">
                  <a href='/' style={{}}>   
                     <img className="frontLogo" src={logo2} alt='logo'></img>

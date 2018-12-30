@@ -36,7 +36,9 @@ class App extends React.Component {
             <Router>
                 <div>
                 <Backhome/>
-
+                <div className="contact">
+                    <a href="/contact">Contact</a> 
+                </div> 
                     <div className="wrapper">
                         <Route exact path="/" render={() =>
                             <Frontpage/>}

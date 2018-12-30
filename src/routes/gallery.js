@@ -22,57 +22,89 @@ import water from '../img/gallery/water.jpg'
 const Gallery = () => {
     return(
         <div className='gallery'>
-            <h1 style={{marginTop: '75px', marginBottom: '0px'}}>
+            <h1 style={{marginTop: '20vh', marginBottom: '10vh'}}>
                 Gallery
             </h1>
             <div className='galleryWrapper'>
                 <div className="galleryCol1">
-                    <img src={Pic5} alt="picture"></img>
+                    <a href={Pic5}>
+                        <img src={Pic5} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol2">
-                    <img src={Pic6} alt="picture"></img>
+                    <a href={Pic6}>
+                        <img src={Pic6} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol3">
-                    <img src={Fuel} alt="picture"></img>
+                    <a href={Fuel}>
+                        <img src={Fuel} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol1">
-                    <img src={Fuel4} alt="picture"></img>
+                    <a href={Fuel4}>
+                        <img src={Fuel4} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol2">
-                    <img src={Pic1} alt="picture"></img>
+                    <a href={Pic1}>
+                        <img src={Pic1} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol3">
-                    <img src={Pic9} alt="picture"></img>
+                    <a href={Pic9}>
+                        <img src={Pic9} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol1">
-                    <img src={Pic13} alt="picture"></img>
+                    <a href={Pic13}>
+                        <img src={Pic13} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol2">
-                    <img src={Pic2} alt="picture"></img>
+                    <a href={Pic2}>
+                        <img src={Pic2} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol3">
-                    <img src={Fuel3} alt="picture"></img>
+                    <a href={Fuel3}>
+                        <img src={Fuel3} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol1">
-                    <img src={Fuel5} alt="picture"></img>
+                    <a href={Fuel5}>
+                        <img src={Fuel5} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol2">
-                    <img src={Pic3} alt="picture"></img>
+                    <a href={Pic3}>
+                        <img src={Pic3} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol3">
-                    <img src={Pic11} alt="picture"></img>
+                    <a href={Pic11}>
+                        <img src={Pic11} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol1">
-                    <img src={Pic7} alt="picture"></img>
+                    <a href={Pic7}>
+                        <img src={Pic7} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol2">
-                    <img src={Pic4} alt="picture"></img>
+                    <a href={Pic4}>
+                        <img src={Pic4} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol3">
-                    <img src={Fuel2} alt="picture"></img>
+                    <a href={Fuel2}>
+                        <img src={Fuel2} alt="picture"></img>
+                    </a>
                 </div>
                 <div className="galleryCol1">
-                    <img src={water} alt="picture"></img>
+                    <a href={water}>
+                        <img src={water} alt="picture"></img>
+                    </a>
                 </div>
             </div>
         </div>
