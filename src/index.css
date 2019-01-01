@@ -394,6 +394,8 @@
 
 .blog > h1 {
   margin-top: 25vh;
+  margin-bottom: 10vh;
+
   font-weight: 800;
 
   font-size: 45px;
