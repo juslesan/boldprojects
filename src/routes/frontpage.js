@@ -1,6 +1,6 @@
 import React from 'react'
 import '../index.css'
-import Backhome from '../components/backhome.js'
+// import Backhome from '../components/backhome.js'
 
 import About from '../img/About_icon_new_1.png'
 import Gallery from '../img/Gallery_icon.png'
@@ -8,7 +8,7 @@ import B100 from '../img/B100new.png'
 import BL from '../img/Blog_vlog_icon_new.png'
 import BV_Ikon from '../img/Bold_Voyage_new.png'
 import NP_Ikon from '../img/Newspaper_new.png'
-import logo from '../img/logo.png';
+// import logo from '../img/logo.png';
 import logo2 from '../img/Bold_Logo_Orange.png'
 import video from '../video/promo.mp4'
 // import video2 from '../video/promo2.mp4'

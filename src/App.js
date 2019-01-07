@@ -3,7 +3,7 @@ import './index.css';
 import {
     BrowserRouter as Router,
     Route,
-    Redirect,
+    // Redirect,
 } from 'react-router-dom'
 import Frontpage from './routes/frontpage'
 import Marathon from './routes/marathon';

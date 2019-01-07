@@ -7,7 +7,7 @@ import Pernilla from '../img/Pernilla.jpg'
 import Thomas from '../img/Thomas.jpg'
 import Valtteri from '../img/Valtteri_new.jpg'
 import Victor from '../img/Victor.jpg'
-import Backhome from '../components/backhome'
+// import Backhome from '../components/backhome'
 
 const About = () => {
 
