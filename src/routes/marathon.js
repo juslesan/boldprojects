@@ -10,7 +10,7 @@ const Marathon = () => {
             <h1>
                 Bold 100
             </h1>
-            <img src={B100} alt="pic" width="25%" style={{marginBottom: '15vh'}}></img>
+            <img src={B100} alt="pic" width="205px" style={{marginBottom: '15vh'}}></img>
             <p style={{fontWeight: '600'}}>
                 Since we enjoyed ourselves so much during our 100 km run, we thought we would 
                 give others the same opportunity. In the summer of 2019 we will organize the 
