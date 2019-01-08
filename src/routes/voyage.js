@@ -14,7 +14,7 @@ const Voyage = () => {
             <h1>
                 Bold Voyage
             </h1>
-            <img src={illu} alt="pic" width="25%" style={{marginBottom: '20vh'}}></img>
+            <img src={illu} alt="pic" width="25%" style={{marginBottom: '10vw'}}></img>
             
             <p style={{fontWeight: '600'}}>
             After completing the Bold100 project in the summer of 2018 we instantly began to think about possible upcoming projects. Two thoughts were central at that moment: it had to be extreme and it had to be charitable. The climate report from IPCC had been released that same year and a lot of focus was on the Baltic Sea and its alarmingly bad condition. This gave us the idea to raise funds for the Baltic Sea. Now we had to come up with a way of challenging ourselves in an unfamiliar element, the sea. 
@@ -26,7 +26,7 @@ const Voyage = () => {
 
 
             </p>
-            <h1 style={{marginTop: '12.5vh'}}>
+            <h1 style={{marginTop: '12.5vw'}}>
                 The Rowing Team
             </h1>
             <div className="rowingTeam">
