@@ -15,9 +15,9 @@
   position: fixed;
   left: 0vw;
   top: 0vw;
-  margin-top: 1vw;
-  margin-left: 1vw;
-  width: 35px;
+  margin-top: 2vh;
+  margin-left: 5.25vw;
+  width: 3.5%;
 }
 
 .backhome:hover {
@@ -71,8 +71,7 @@
   height: 120%;
   width: 120%;
   left: -6vw;
-  top: 5vw;
-  margin-top: 5vh;  
+  top: 7vw;
   z-index: 96;
 }
 
@@ -115,8 +114,8 @@
 }
 .contact {
   position: fixed;
-  right: 1vw;
-  top: 1vw;
+  right: 2.5vw;
+  top: 1vh;
   font-weight: 800;
 
 }
@@ -395,8 +394,6 @@
 
 .blog > h1 {
   margin-top: 25vh;
-  margin-bottom: 10vh;
-
   font-weight: 800;
 
   font-size: 45px;
@@ -438,10 +435,9 @@
   margin-bottom: 10vh;
   font-weight: 800;
 
-  font-size: 3.5vw;
+  font-size: 45px;
 }
 .contactPage > p {
-  font-size: 2vw;
   margin: 2vw; 
 }
 .contactPage > p > a {
