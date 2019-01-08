@@ -17,7 +17,7 @@
   top: 0vw;
   margin-top: 2vh;
   margin-left: 5vw;
-  width: 3%;
+  width: 35px;
 }
 
 .backhome:hover {
@@ -437,9 +437,10 @@
   margin-bottom: 10vh;
   font-weight: 800;
 
-  font-size: 45px;
+  font-size: 3.5vw;
 }
 .contactPage > p {
+  font-size: 2vw;
   margin: 2vw; 
 }
 .contactPage > p > a {
