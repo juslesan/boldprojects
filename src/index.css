@@ -15,8 +15,8 @@
   position: fixed;
   left: 0vw;
   top: 0vw;
-  margin-top: 2vh;
-  margin-left: 2vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
   width: 35px;
 }
 
@@ -116,7 +116,7 @@
 .contact {
   position: fixed;
   right: 1vw;
-  top: 1vh;
+  top: 1vw;
   font-weight: 800;
 
 }
