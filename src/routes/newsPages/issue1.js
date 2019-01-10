@@ -8,7 +8,7 @@ import pic4 from '../../img/issue1/teeth.jpg'
 const Issue1 = () => {
     return (
         <div className="newsIssue1">
-            <h1>Last to appear, First to go?</h1>
+            <h1>Last to appear, first to go?</h1>
             
             <div style={{float: 'up'}}>
                 <p style={{float: 'left', width: '48%'}}>The Baltic Sea is merely 12000 years old, making it the youngest sea in the world. It connects nine countries via its borders however, its catchment area is even larger, meaning that a total of 14 countries are connected to the Baltic Sea through various bodies of water. In those countries over 85 million people are affected by the ecosystem of the Baltic Sea. 
@@ -16,7 +16,7 @@ const Issue1 = () => {
                 <img src={pic3} alt="strut" width='48%' style={{float: 'right'}}></img>
 
             </div>
-            <div style={{float: 'left', marginBottom:'10vh'}}>
+            <div style={{float: 'left', marginBottom:'10v'}}>
                 <p>
                     <br/>
                     The flora and fauna of the Baltic Sea is unique and sensitive. Since the water is brackish, which means that it consists of salt water and fresh water, only a small amount of living things have adapted to its climate. The water is too sweet for some creatures and too salty for others. Environmental changes are not helping their adaptation and the conditions are getting worse. 
