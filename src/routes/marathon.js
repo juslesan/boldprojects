@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css'
+import './marathon.css'
 // import Backhome from '../components/backhome'
 import B100 from '../img/B100_Illu.png'
 import water from '../img/gallery/water.jpg'

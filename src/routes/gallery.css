@@ -1,0 +1,49 @@
+.gallery {
+    font-family: Montserrat;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .gallery > h1 {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    font-size: 45px;
+    font-weight: 800;
+  
+  }
+  
+  .galleryWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4vw;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  .galleryCol1 {
+    width: 18vw;
+    margin-top: 4vh; 
+  }
+  
+  .galleryCol1 > a > img {
+    position: relative;
+    width: 100%;
+  }
+  .galleryCol2 {
+    margin-top: 4vh; 
+    width: 18vw;
+  }
+  .galleryCol2 > a > img {
+    position: relative;
+    top: 12vw;
+    width: 100%;
+  }
+  .galleryCol3 {
+    margin-top: 0vh; 
+    width: 18vw;
+  }
+  .galleryCol3 > a > img {
+    position: relative;
+    top: 6vw;
+    width: 100%;
+  }

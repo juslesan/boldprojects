@@ -1,0 +1,18 @@
+.blog {
+    font-family: Montserrat;
+    color: black;
+    font-size: 1.8vw;
+    text-align: center;
+    position: relative;
+    width: 120%;
+    left: -10%; 
+  }
+  
+  .blog > h1 {
+    margin-top: 25vh;
+    font-weight: 800;
+    margin-bottom: 10vh;
+  
+  
+    font-size: 4vw;
+  }

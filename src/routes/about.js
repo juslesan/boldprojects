@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css'
+import './about.css'
 import Eddie from '../img/Eddie.jpg'
 import Bernhard from '../img/Bernhard_new.jpg'
 import Linus from '../img/Linus.jpg'

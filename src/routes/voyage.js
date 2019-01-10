@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css'
+import './voyage.css'
 // import Backhome from '../components/backhome'
 import illu from '../img/BV_Wave_Illu.png'
 import Bernhard from '../img/Bernhard_new.jpg'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../index.css'
+import './gallery.css'
 // import Backhome from '../components/backhome.js'
 import Pic1 from '../img/gallery/Pic1.jpg'
 import Pic2 from '../img/gallery/Pic2.jpg'

@@ -23,6 +23,22 @@
 .backhome:hover {
   opacity: 0.7;
 }
+.contact {
+  position: fixed;
+  right: 1vw;
+  top: 1vh;
+  font-weight: 800;
+
+}
+
+.contact > a {
+  color: black;
+  font-family: Montserrat;
+  /* font-weight: 900; */
+  font-size: 1.6vw;
+  /* margin-top: 5vh; */
+  /* margin-right: 2vw; */
+}
 /* ----------------------------------------------------------------------------------- */
 
 .leftLean {
@@ -112,22 +128,7 @@
   width: 18vw;
   overflow: visible;
 }
-.contact {
-  position: fixed;
-  right: 1vw;
-  top: 1vh;
-  font-weight: 800;
 
-}
-
-.contact > a {
-  color: black;
-  font-family: Montserrat;
-  /* font-weight: 900; */
-  font-size: 1.6vw;
-  /* margin-top: 5vh; */
-  /* margin-right: 2vw; */
-}
 
 .linkImg {
   width: 100%;
@@ -171,287 +172,4 @@
   top: -13vw;
   right: 9.5vw;
   width: 21vw;
-}
-/* ----------------------------------------------------------------------------------- */
-
-.about {
-  font-family: 'Montserrat';
-  font-weight: 800;
-  color: black;
-}
-.aboutBulk {
-  position: relative;
-  width: 120%;
-  margin: 10px;
-  margin-top: 37vh;
-  left: -10%;
-}
-.aboutBulk > p {
-  position: 'relative';
-  /* width: 120%; */
-    /* left: 20%; */
-  text-align: justify;
-  margin-top: 25px;
-  font-size: 1.8vw;
-  /* font-size: 18px; */
-}
-.aboutBulk > h1 {
-  text-align: center;
-  font-size: 4vw;
-  font-weight: 800;
-
-}
-.aboutBulk > h2 {
-  text-align: center;
-  font-weight: 800;
-
-}
-.aboutBulk > hr {
-  color: black;
-}
-.about > a {
-  font-family: Montserrat;
-  color: black;
-  font-size: 18px;
-}
-.doerWrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4vw;
-    grid-auto-rows: minmax(100px, auto);
-    left: 1vw;
-    font-size: 2.1vw;
-    margin-top: 50px;
-}
-.doer {
-  display: inline-block;
-  margin-bottom: 0px;
-  width: 20vw;
-  height: 100%;
-}
-
-.doer > p {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 1px;
-  /* font-size: 17px; */
-}
-/* ----------------------------------------------------------------------------------- */
-
-.gallery {
-  font-family: Montserrat;
-  color: black;
-  font-size: 18px;
-}
-
-.gallery > h1 {
-  text-align: center;
-  margin-top: 15vh;
-  margin-bottom: 10vh;
-  font-size: 45px;
-  font-weight: 800;
-
-}
-
-.galleryWrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 4vw;
-  grid-auto-rows: minmax(100px, auto);
-}
-
-.galleryCol1 {
-  width: 18vw;
-  margin-top: 4vh; 
-}
-
-.galleryCol1 > a > img {
-  position: relative;
-  width: 100%;
-}
-.galleryCol2 {
-  margin-top: 4vh; 
-  width: 18vw;
-}
-.galleryCol2 > a > img {
-  position: relative;
-  top: 12vw;
-  width: 100%;
-}
-.galleryCol3 {
-  margin-top: 0vh; 
-  width: 18vw;
-}
-.galleryCol3 > a > img {
-  position: relative;
-  top: 6vw;
-  width: 100%;
-}
-/* ----------------------------------------------------------------------------------- */
-
-.voyage {
-  font-family: Montserrat;
-  position: relative;
-  color: black;
-  /* font-size: 18px; */
-  text-align: center;
-  width: 120%;
-  left: -10%;
-}
-
-.voyage > p {
-  text-align: justify;
-  font-size: 1.8vw;
-  /* margin-left: 5vw; */
-  /* margin-right: 5vw; */
-
-}
-
-.voyage > h1 {
-  margin-top: 25vh;
-  font-size: 3.5vw;
-  margin-bottom: 10vh;
-  font-weight: 800;
-
-}
-
-.rowingTeam {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1vw;
-  grid-auto-rows: minmax(100px, auto);
-  margin-left: 10vw;
-  margin-top: 75px;
-  margin-bottom: 50px;
-}
-
-.rowingCol1 > p {
-  margin-top: 10px;
-  font-size: 2vw;
-}
-.rowingCol2 > p {
-  margin-top: 10px;
-  font-size: 2vw;
-
-}
-
-.rowingCol1 {
-  width: 20vw;
-  position: relative;
-}
-
-.rowingCol2 {
-  width: 20vw;
-  position: relative;
-  top: 15vw;
-}
-.rowingCol1 > p {
-  margin-top: 10px;
-}
-.rowingCol2 > p {
-  margin-top: 10px;
-}
-/* ----------------------------------------------------------------------------------- */
-
-.marathon {
-  font-family: Montserrat;
-  color: black;
-  font-weight: 800;
-
-  /* font-size: 18px; */
-  text-align: center;
-  position: relative;
-  width: 120%;
-  left: -10%;
-}
-
-.marathon > h1 {
-  margin-top: 25vh;
-  font-size: 3.5vw;
-  font-weight: 800;
-
-  margin-bottom: 5vh;
-
-}
-.marathon > p {
-  text-align: justify;
-  font-size: 1.8vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
-
-/* ----------------------------------------------------------------------------------- */
-
-.blog {
-  font-family: Montserrat;
-  color: black;
-  font-size: 1.8vw;
-  text-align: center;
-  position: relative;
-  width: 120%;
-  left: -10%; 
-}
-
-.blog > h1 {
-  margin-top: 25vh;
-  font-weight: 800;
-  margin-bottom: 10vh;
-
-
-  font-size: 4vw;
-}
-
-/* ----------------------------------------------------------------------------------- */
-
-.newspaper {
-  font-family: Montserrat;
-  color: black;
-  /* font-size: 18px; */
-  text-align: center;
-  position: relative;
-  width: 120%;
-  left: -10%; 
-}
-.newspaper > h1 {
-  margin-top: 25vh;
-  margin-bottom: 10vh;
-  font-weight: 800;
-
-  font-size: 4vw;
-}
-
-/* ----------------------------------------------------------------------------------- */
-
-.contactPage {
-  font-family: Montserrat;
-  color: black;
-  /* font-size: 18px; */
-  text-align: center;
-  position: relative;
-  width: 120%;
-  left: -10%; 
-}
-
-.contactPage > h1 {
-  margin-top: 25vh;
-  margin-bottom: 10vh;
-  font-weight: 800;
-
-  font-size: 3.5vw;
-}
-.contactPage > p {
-  margin: 2vw; 
-  font-size: 1.8vw;
-
-}
-.contactPage > p > a {
-  color: black;
-  font-family: Montserrat;
-  margin: 2vw; 
-
-  /* font-weight: 900; */
-  /* font-size: 2vw; */
-  /* margin-top: 5vh; */
-  /* margin-right: 2vw; */
 }
