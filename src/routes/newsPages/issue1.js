@@ -38,7 +38,7 @@ const Issue1 = () => {
                         Governments, foundations and other organizations are working to improve the state of the Baltic Sea, but there is also a lot we as individuals can do. Using public transport and walking instead of using the car decreases the nitrogen compounds entering the water; eating fish that is sustainably fished stops the consumption of endangered species and eating less 
                     </p>
                 </div>
-                <div style={{position: 'relative', top: '-10px', float: 'left'}}>
+                <div style={{position: 'relative', top: '0px', float: 'right'}}>
                     <p>
                         meat decreases the emission of carbon dioxide and nutrients that are caused by meat production. These are only a few options to do, <a href="https://www.bsag.fi/en/front-page/">here</a> you can read more about the Baltic Sea and ways of making a change.
                     </p>
