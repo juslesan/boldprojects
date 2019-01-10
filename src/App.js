@@ -16,7 +16,7 @@ import News from './routes/news';
 import ScrollToTop from 'react-scroll-up'
 import Backhome from './components/backhome.js'
 import Arrow from './img/up_icon_new.png'
-
+import Issue1 from './routes/newsPages/issue1'
 
 
 
@@ -65,6 +65,9 @@ class App extends React.Component {
                         />
                         <Route path="/contact" render={() =>
                             <Contact/>}
+                        />
+                        <Route path="/newspaper/1" render={() =>
+                            <Issue1/>}
                         />
                     </div>
                     <ScrollToTop showUnder={600}>

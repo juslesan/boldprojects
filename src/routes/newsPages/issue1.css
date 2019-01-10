@@ -1,0 +1,39 @@
+.newsIssue1 {
+    font-family: Montserrat;
+    color: black;
+    font-weight: 800;
+  
+    /* font-size: 18px; */
+    text-align: center;
+    position: relative;
+    width: 120%;
+    left: -10%;
+}
+
+.newsIssue1 > h1 {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    font-weight: 800;
+  
+    font-size: 3vw;
+}
+
+
+.newsIssue1 > p {
+    position: 'relative';
+    text-align: justify;
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+.newsIssue1 > div > p {
+    position: 'relative';
+    text-align: justify;
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+.newsIssue1 > div > div > p {
+    position: 'relative';
+    text-align: justify;
+    font-size: 1.7vw;
+    font-weight: 500;
+}
