@@ -16,7 +16,7 @@ const Issue1 = () => {
                 <img src={pic3} alt="strut" width='48%' style={{float: 'right'}}></img>
 
             </div>
-            <div style={{float: 'left', marginBottom:'10v'}}>
+            <div style={{float: 'left', marginBottom:'10vh'}}>
                 <p>
                     <br/>
                     The flora and fauna of the Baltic Sea is unique and sensitive. Since the water is brackish, which means that it consists of salt water and fresh water, only a small amount of living things have adapted to its climate. The water is too sweet for some creatures and too salty for others. Environmental changes are not helping their adaptation and the conditions are getting worse. 
