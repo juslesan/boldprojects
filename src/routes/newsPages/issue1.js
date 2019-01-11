@@ -33,17 +33,17 @@ const Issue1 = () => {
                 </p>
 
                 <div style={{marginTop: '5vh', float: 'up'}}>
-                    <img src={pic1} alt="horizon" width='48%' style={{float: 'right'}}></img>
-                    <p style={{float: 'left', width:'48%'}}>
-                        Governments, foundations and other organizations are working to improve the state of the Baltic Sea, but there is also a lot we as individuals can do. Using public transport and walking instead of using the car decreases the nitrogen compounds entering the water; eating fish that is sustainably fished stops the consumption of endangered species and eating less 
+                    <img src={pic1} alt="horizon" width='48%' style={{float: 'right', margin: '5px', marginLeft: '2vw'}}></img>
+                    <p style={{}}>
+                        Governments, foundations and other organizations are working to improve the state of the Baltic Sea, but there is also a lot we as individuals can do. Using public transport and walking instead of using the car decreases the nitrogen compounds entering the water; eating fish that is sustainably fished stops the consumption of endangered species and eating less                         meat decreases the emission of carbon dioxide and nutrients that are caused by meat production. These are only a few options to do, <a href="https://www.bsag.fi/en/front-page/">here</a> you can read more about the Baltic Sea and ways of making a change.
+
                     </p>
                 </div>
-                <div style={{position: 'relative', top: '0px', float: 'right'}}>
+                {/* <div style={{position: 'relative', top: '0px', float: 'right'}}>
                     <p>
-                        meat decreases the emission of carbon dioxide and nutrients that are caused by meat production. These are only a few options to do, <a href="https://www.bsag.fi/en/front-page/">here</a> you can read more about the Baltic Sea and ways of making a change.
                     </p>
                     
-                </div>
+                </div> */}
 
                 <img src={pic4} alt="teeth" width='90%' style={{marginTop: '5vh',marginBottom: '5vh', position: 'relative'}}></img>
 
