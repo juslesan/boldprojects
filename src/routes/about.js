@@ -101,7 +101,7 @@ const About = () => {
                 After walking for what felt like an eternity they reached 99 km. At this point friends and family joined to cheer them on for the final moments. As they saw the finish line, they started running. After 15 hours on the road, 100 km covered and 12190 euros raised, Linus and Eddie crossed the finish line in total euphoria. 
                 <br/><br/>
 
-	            creating a project and doing everything from scratch with a team of equally passionate individuals was something everyone enjoyed. In November of 2018 the Bold100 team decided to found an association and create more projects of the same caliber. That association is Bold Projects.
+	            Creating a project and doing everything from scratch with a team of equally passionate individuals was something everyone enjoyed. In November of 2018 the Bold100 team decided to found an association and create more projects of the same caliber. That association is Bold Projects.
                 </p>
             </div>
         </div>
