@@ -11,6 +11,16 @@ const Issue2 = () => {
         <div className="newsIssue2">
             <h1>Modern farming takes the sea into account</h1>
 
+            <p style={{fontWeight: '600', textAlign: 'center', marginBottom: '5vw'}}>
+                Eutrophication is one, if not the biggest problem concerning the Baltic Sea. 
+                Simply put, nutrients, such as nitrogen and phosphorus, from e.g farming flow 
+                into the waters causing algal blooms. The algae increases in number and size 
+                and at some point it dies and falls to the bottom of the sea where it is 
+                decomposed by microbes and small animals. In order for them to decompose 
+                the plants, they need to use oxygen. This causes the oxygen level to decrease, 
+                creating dead zones at the bottom of the sea. 
+
+            </p>
             <div className="mathias">
                 <div className="mathiasP1">
                     <p>
@@ -25,17 +35,6 @@ const Issue2 = () => {
                 </div>
             </div>         
 
-
-            <p style={{fontWeight: '600', textAlign: 'center'}}>
-                Eutrophication is one, if not the biggest problem concerning the Baltic Sea. 
-                Simply put, nutrients, such as nitrogen and phosphorus, from e.g farming flow 
-                into the waters causing algal blooms. The algae increases in number and size 
-                and at some point it dies and falls to the bottom of the sea where it is 
-                decomposed by microbes and small animals. In order for them to decompose 
-                the plants, they need to use oxygen. This causes the oxygen level to decrease, 
-                creating dead zones at the bottom of the sea. 
-
-            </p>
             <p>
                 Reading the description of eutrophication, one might think that farming is 
                 the sole problem and by fixing that the Baltic Sea will flourish. Unfortunately 
