@@ -26,7 +26,7 @@ const Issue2 = () => {
             </div>         
 
 
-            <p>
+            <p style={{fontWeight: '600', textAlign: 'center'}}>
                 Eutrophication is one, if not the biggest problem concerning the Baltic Sea. 
                 Simply put, nutrients, such as nitrogen and phosphorus, from e.g farming flow 
                 into the waters causing algal blooms. The algae increases in number and size 

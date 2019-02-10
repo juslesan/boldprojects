@@ -9,7 +9,7 @@
 
 
 .newsIssue2 {
-    font-family: MermaidBold;
+    font-family: Montserrat;
     color: black;
     font-weight: 800;
     /* font-size: 18px; */
@@ -20,20 +20,22 @@
     font-size: 2vw;
 }
 .newsIssue2 > h1 {
-    font-family: MermaidBold;
+    font-family: Montserrat;
     color: black;
-    font-size: 3.5vw;
-    font-weight: 900;
+    font-size: 3vw;
+    font-weight: 800;
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
 
 .newsIssue2 > p {
     text-align: justify;
+    font-weight: 500;
 }
 
 
 .mathias {
+    font-family: MermaidBold;
     display: grid;
     grid-template-areas:
         'p1 p1 p1 img img img img img img img img img p2 p2 p2';
