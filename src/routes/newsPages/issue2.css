@@ -1,0 +1,98 @@
+@font-face {
+    font-family: MermaidBold;
+    src: url(Mermaid1001.ttf) format('truetype');  
+}
+@font-face {
+    font-family: MermaidBold;
+    src: url(Mermaid1001.woff) format('woff');  
+}
+
+
+.newsIssue2 {
+    font-family: MermaidBold;
+    color: black;
+    font-weight: 800;
+    /* font-size: 18px; */
+    text-align: center;
+    position: relative;
+    width: 120%;
+    left: -10%;
+    font-size: 2vw;
+}
+.newsIssue2 > h1 {
+    font-family: MermaidBold;
+    color: black;
+    font-size: 3.5vw;
+    font-weight: 900;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.newsIssue2 > p {
+    text-align: justify;
+}
+
+
+.mathias {
+    display: grid;
+    grid-template-areas:
+        'p1 p1 p1 img img img img img img img img img p2 p2 p2';
+    grid-gap: 3vw;
+    font-size: 2.4vw;
+    margin-bottom: 5vw;
+}
+
+.mathiasImg {
+    /* position: relative; */
+    grid-area: img; 
+    width: 90%;
+    margin-left: 5%;
+}
+
+.mathiasP1 {
+    position: relative;
+    width: 8vw;
+    grid-area: p1;
+    margin-top: 18vw;
+}
+
+.mathiasP1 > p {
+    width: 1px;
+    word-wrap: break-word;
+    text-align: center
+
+}
+
+.mathiasP2 {
+    position: relative;
+    margin-left: 7vw;
+    grid-area: p2;
+    margin-top: 15vw;
+
+}
+.mathiasP2 > p {
+    width: 1px;
+    word-wrap: break-word;
+    text-align: center
+
+}
+
+.issue2ImgWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0vw;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.issue2Img {
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 30vw;
+    height: 100%;
+}
+
+.issue2Img > img {
+    width: 100%;
+}
