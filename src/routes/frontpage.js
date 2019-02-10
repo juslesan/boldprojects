@@ -85,7 +85,7 @@ const Frontpage = () => {
                     <div className="frontCont">
                         <div className="rightLean">
                             <div className="linkImgContainer">
-                                <a href='/blog'>
+                                <a href='/blogs'>
                                     <img className="linkImg" src={BL} alt='logo'></img>
                                 </a> 
                             </div>

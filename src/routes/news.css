@@ -29,3 +29,7 @@
   width: 20vw;
   height: 100%;
 }
+
+.newsListed > a > img:hover {
+    opacity: 0.6;
+}

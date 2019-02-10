@@ -17,7 +17,7 @@ import ScrollToTop from 'react-scroll-up'
 import Backhome from './components/backhome.js'
 import Arrow from './img/up_icon_new.png'
 import Issue1 from './routes/newsPages/issue1'
-
+import Vlog1 from './routes/blogPages/vlog1'
 
 
 // import react-bootstrap from 'react-bootstrap'
@@ -45,7 +45,7 @@ class App extends React.Component {
                         <Route exact path="/" render={() =>
                             <Frontpage/>}
                         />
-                        <Route path="/blog" render={() =>
+                        <Route path="/blogs" render={() =>
                             <Blog/>}
                         />
                         <Route path="/voyage" render={() =>
@@ -68,6 +68,9 @@ class App extends React.Component {
                         />
                         <Route path="/newspaper/1" render={() =>
                             <Issue1/>}
+                        />
+                        <Route path="/blog/1" render={() =>
+                            <Vlog1/>}
                         />
                     </div>
                     <ScrollToTop showUnder={600}>

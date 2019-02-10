@@ -1,15 +1,20 @@
 import React from 'react'
 import './blog.css'
-
+import vlog1 from '../img/Vlog1.png'
 const Blog = () => {
     return(
         <div className="blog">
             <h1>
                 Blog
             </h1>
-            <p>
-                The first edition will be published on February the 1st.
-            </p>
+            <div className="blogsWrapper" style={{position: 'relative'}}>
+                <div className="blogsListed">
+                    <a href='/blog/1' style={{}}>   
+                        <img src={vlog1} alt="kuva" width="100%"></img>
+                    </a>
+                </div>
+                
+            </div>  
         </div>
     )
 }
