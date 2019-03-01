@@ -1,0 +1,11 @@
+.vlog{
+    width: 80vw;
+    top: 10vh;
+    left: -5vw;
+    height: 90vh;
+    position: relative; 
+}
+.embedded{
+    width: 88%;
+    height: 80vh;
+}
