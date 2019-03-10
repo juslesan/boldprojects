@@ -62,8 +62,8 @@ const Issue3 = () => {
                 heating and electricity. Check out <a href="http://laakkeetonitameri.fi/">Lääkkeetön Itämeri</a> for extended reading. 
             </p>
 
-            <img src={pic5} alt="pic" style={{width:"80%", marginTop: "5vw"}}/>
-            <img src={pic2} alt="pic" style={{width:"80%", marginTop: "5vw"}}/>
+            <img src={pic5} alt="pic" style={{width:"100%", marginTop: "5vw"}}/>
+            <img src={pic2} alt="pic" style={{width:"100%", marginTop: "5vw", marginBottom:"5vw"}}/>
 
         </div>
     )
