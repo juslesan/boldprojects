@@ -20,6 +20,8 @@ import Issue1 from './routes/newsPages/issue1'
 import Issue2 from './routes/newsPages/issue2'
 import Issue3 from './routes/newsPages/issue3'
 import Vlog1 from './routes/blogPages/vlog1'
+import Vlog2 from './routes/blogPages/vlog2'
+
 
 
 // import react-bootstrap from 'react-bootstrap'
@@ -79,6 +81,9 @@ class App extends React.Component {
                         />
                         <Route path="/blog/1" render={() =>
                             <Vlog1/>}
+                        />
+                        <Route path="/blog/2" render={() =>
+                            <Vlog2/>}
                         />
                     </div>
                     <ScrollToTop showUnder={600}>
