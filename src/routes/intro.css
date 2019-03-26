@@ -1,0 +1,12 @@
+.intro{
+    width: 80vw;
+    top: 10vh;
+    left: -5vw;
+    height: 30vw;
+    position: relative; 
+}
+.embedded{
+    position: relative;
+    width: 88%;
+    height: 40vw;
+}

@@ -21,7 +21,7 @@ import Issue2 from './routes/newsPages/issue2'
 import Issue3 from './routes/newsPages/issue3'
 import Vlog1 from './routes/blogPages/vlog1'
 import Vlog2 from './routes/blogPages/vlog2'
-
+import Intro from './routes/intro'
 
 
 // import react-bootstrap from 'react-bootstrap'
@@ -69,6 +69,9 @@ class App extends React.Component {
                         />
                         <Route path="/contact" render={() =>
                             <Contact/>}
+                        />
+                        <Route path="/intro" render={() =>
+                            <Intro/>}
                         />
                         <Route path="/newspaper/1" render={() =>
                             <Issue1/>}

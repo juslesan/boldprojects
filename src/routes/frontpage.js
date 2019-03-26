@@ -22,7 +22,7 @@ const Frontpage = () => {
             {/* <Backhome/> */}
 
             <div className="logoContainer">
-                 <a href='/' style={{}}>   
+                 <a href='/intro' style={{}}>   
                     <img className="frontLogo" src={logo2} alt='logo'></img>
                 </a>
             </div>
@@ -30,7 +30,7 @@ const Frontpage = () => {
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
                 </h1> */}
-                <div className="videoWrapper">
+                <a className="videoWrapper" href="/intro">
                     <div className="videoCont">
                         <Video autoPlay loop muted
                             controls={[]}
@@ -42,7 +42,7 @@ const Frontpage = () => {
                             {/* <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default /> */}
                         </Video>
                     </div>
-                </div>
+                </a>
                 <div className="iconLinkCont">
                     <div className="frontCont">
                         <div className="rightLean">
