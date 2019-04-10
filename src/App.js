@@ -19,6 +19,7 @@ import Arrow from './img/up_icon_new.png'
 import Issue1 from './routes/newsPages/issue1'
 import Issue2 from './routes/newsPages/issue2'
 import Issue3 from './routes/newsPages/issue3'
+import Issue4 from './routes/newsPages/issue4'
 import Vlog1 from './routes/blogPages/vlog1'
 import Vlog2 from './routes/blogPages/vlog2'
 import Intro from './routes/intro'
@@ -81,6 +82,9 @@ class App extends React.Component {
                         />
                         <Route path="/newspaper/3" render={() =>
                             <Issue3/>}
+                        />
+                        <Route path="/newspaper/4" render={() =>
+                            <Issue4/>}
                         />
                         <Route path="/blog/1" render={() =>
                             <Vlog1/>}
