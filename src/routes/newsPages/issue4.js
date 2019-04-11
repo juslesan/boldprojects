@@ -53,40 +53,43 @@ const Issue4 = () => {
                 </div>
             </div>
             <div style={{textAlign:"center", fontWeight: 600}}>
-                <p style={{marginBottom:"3vw"}}>
-                What can we do?
-                </p>
-                <p>
-                Use a boat lift.
-                </p>
-                <p>
-                Avoid painting the boat in areas where it is not needed.
-                </p>
-                <p>
-                Wash the boat with a pressure washer or with a brush washer.
-                </p>
+                <div style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw"}}>
+                    <p style={{marginBottom:"3vw"}}>
+                    What can we do?
+                    </p>
+                    <p>
+                    Use a boat lift.
+                    </p>
+                    <p>
+                    Avoid painting the boat in areas where it is not needed.
+                    </p>
+                    <p>
+                    Wash the boat with a pressure washer or with a brush washer.
+                    </p>
+                </div>
+                <div style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw", marginTop: "3vw"}}>
+                    <p style={{marginTop: "3vw"}}>
+                        
+                    Roe - Rom, Mäti
+                    </p>
+                    <p>
+                    Baltic herring - Strömming, Silakka
+                    </p>
+                    <p>
+                    Bass - Abborre, Ahven
+                    </p>
+                    <p>
+                    Bladder wrack - Blåstång, Rakkohauru
+                    </p>
 
-                <p style={{marginTop: "3vw"}}>
                     
-                Roe - Rom, Mäti
-                </p>
-                <p>
-                Baltic herring - Strömming, Silakka
-                </p>
-                <p>
-                Bass - Abborre, Ahven
-                </p>
-                <p>
-                Bladder wrack - Blåstång, Rakkohauru
-                </p>
-
-
-                <p style={{fontWeight: 500, marginTop: "3vw"}}>
-                    Further guidelines for taking care of your boat in an eco-friendly manner:<br/> 
-                    <a href="http://www.hallskargardenren.fi/sv/in_english/environmental_information/lets_take_a_look_at_boat_bottoms">
-                        Keep the Archipelago Tidy Association
-                    </a>
-                </p>
+                    <p style={{fontWeight: 500, marginTop: "3vw"}}>
+                        Further guidelines for taking care of your boat in an eco-friendly manner:<br/> 
+                        <a href="http://www.hallskargardenren.fi/sv/in_english/environmental_information/lets_take_a_look_at_boat_bottoms">
+                            Keep the Archipelago Tidy Association
+                        </a>
+                    </p>
+                </div>
                 <img alt="footer" className="issue4FooterPic" src={pic1}/>
 
             </div>
