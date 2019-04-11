@@ -131,3 +131,7 @@
 .issue4Img6  > img {
     width: 100%;
 }   
+
+.newsBox > p {
+    font-size: 1.7vw
+}

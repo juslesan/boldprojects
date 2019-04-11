@@ -53,7 +53,7 @@ const Issue4 = () => {
                 </div>
             </div>
             <div style={{textAlign:"center", fontWeight: 600}}>
-                <div style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw"}}>
+                <div className="newsBox" style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw"}}>
                     <p style={{marginBottom:"3vw"}}>
                     What can we do?
                     </p>
@@ -67,7 +67,7 @@ const Issue4 = () => {
                     Wash the boat with a pressure washer or with a brush washer.
                     </p>
                 </div>
-                <div style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw", marginTop: "3vw"}}>
+                <div className="newsBox" style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw", marginTop: "3vw"}}>
                     <p style={{marginTop: "3vw"}}>
                         
                     Roe - Rom, Mäti
