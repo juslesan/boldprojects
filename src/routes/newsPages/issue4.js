@@ -67,7 +67,7 @@ const Issue4 = () => {
                     Wash the boat with a pressure washer or with a brush washer.
                     </p>
                 </div>
-                <div className="newsBox" style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw", marginTop: "3vw"}}>
+                <div className="newsBox" style={{border: "solid 2px black", borderRadius: "2px", padding: "2vw", marginTop: "3vw"}}>
                     <p style={{marginTop: "3vw"}}>
                         
                     Roe - Rom, Mäti
