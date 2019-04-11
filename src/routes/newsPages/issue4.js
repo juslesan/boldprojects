@@ -53,7 +53,7 @@ const Issue4 = () => {
                 </div>
             </div>
             <div style={{textAlign:"center", fontWeight: 600}}>
-                <div className="newsBox" style={{border: "solid 3px black", borderRadius: "2px", padding: "2vw"}}>
+                <div className="newsBox" style={{border: "solid 2px black", borderRadius: "2px", padding: "2vw"}}>
                     <p style={{marginBottom:"3vw"}}>
                     What can we do?
                     </p>
