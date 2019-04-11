@@ -3,7 +3,7 @@ import './news.css'
 import issue1 from '../img/issue_1_icon.png'
 import issue2 from '../img/issue_2_icon.png'
 import issue3 from '../img/ISSUE_3_Icon.png'
-import issue4 from '../img/ISSUE_3_Icon.png'
+import issue4 from '../img/ISSUE_4_icon.png'
 const News = () => {
     return(
         <div className="newspaper">
