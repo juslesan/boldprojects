@@ -1,7 +1,7 @@
 import React from 'react'
 import '../index.css'
 // import Backhome from '../components/backhome.js'
-
+import logo from '../img/Bold_Projects_black.png'
 import About from '../img/About_icon_new_1.png'
 import Gallery from '../img/Gallery_icon.png'
 import B100 from '../img/B100new.png'
@@ -22,10 +22,23 @@ const Frontpage = () => {
             {/* <Backhome/> */}
 
             <div className="logoContainer">
-                 <a href='/intro' style={{}}>   
-                    <img className="frontLogo" src={logo2} alt='logo'></img>
+                 <a href='https://www.boldvoyage.fi/' style={{fontSize: '2.5vw', color: 'black'}}> 
+                    
+                    <p style={{textAlign: 'center'}}>
+                        Donate
+                        to <br/>
+                        the <br/>
+                        baltic <br/>
+                        sea <br/>
+                    </p> 
+                    <p>Click here!</p>  
+                    {/* <img className="frontLogo" src={logo2} alt='logo'></img> */}
                 </a>
             </div>
+            <div>
+                <img className="newFrontLogo" src={logo} alt='logo'></img>
+            </div>
+
             <div className="front" style={{position: 'relative'}}>
                 {/* <h1 style={{fontSize: "45px", textAlign: 'center'}}>
                     Bold Projects
