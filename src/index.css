@@ -170,7 +170,7 @@
 .frontLogo {
   position: relative;
   top: -13vw;
-  right: 9.5vw;
+  right: 9vw;
   width: 21vw;
 }
 
@@ -182,9 +182,9 @@
 }
 
 .text {
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.2vw;
   color: rgb(223, 64, 64);
 }
 .text:hover {

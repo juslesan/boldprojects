@@ -26,10 +26,10 @@ const Frontpage = () => {
                     
                     <p style={{textAlign: 'center'}}>
                         Donate
-                        to <br/>
-                        the <br/>
-                        baltic <br/>
-                        sea <br/>
+                        to<br/>
+                        the<br/>
+                        Baltic<br/>
+                        Sea<br/>
                         here!
                     </p>  
                     {/* <img className="frontLogo" src={logo2} alt='logo'></img> */}
