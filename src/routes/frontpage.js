@@ -22,7 +22,7 @@ const Frontpage = () => {
             {/* <Backhome/> */}
 
             <div className="logoContainer">
-                 <a href='https://www.boldvoyage.fi/' style={{fontSize: '2.5vw', color: 'black'}}> 
+                 <a href='https://www.boldvoyage.fi/' className="text" style={{}}> 
                     
                     <p style={{textAlign: 'center'}}>
                         Donate
@@ -30,8 +30,8 @@ const Frontpage = () => {
                         the <br/>
                         baltic <br/>
                         sea <br/>
-                    </p> 
-                    <p>Click here!</p>  
+                        here!
+                    </p>  
                     {/* <img className="frontLogo" src={logo2} alt='logo'></img> */}
                 </a>
             </div>
